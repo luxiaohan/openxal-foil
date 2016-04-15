@@ -56,17 +56,18 @@ class MachineSnapshotTable {
 
 	/** insert the machine snapshot and update its ID upone success */
 	public void insert( final Connection connection, final DatabaseAdaptor databaseAdaptor,  final ChannelSnapshotTable channelSnapshotTable, final MachineSnapshot machineSnapshot ) throws SQLException {
-		final long primaryKey = fetchNextPrimaryKey( connection );
+		//final long primaryKey = fetchNextPrimaryKey( connection );
 		final String type = machineSnapshot.getType();
 		final Timestamp timeStamp = new Timestamp( machineSnapshot.getTimestamp().getTime() );
 
 		final PreparedStatement insertStatement = getInsertStatement( connection );
-		insertStatement.setLong( 1, primaryKey );
-		insertStatement.setTimestamp( 2, timeStamp );
-		insertStatement.setString( 3, type );
-		insertStatement.setString( 4, machineSnapshot.getComment() );
+		//insertStatement.setLong( 1, primaryKey );
+		insertStatement.setTimestamp( 1, timeStamp );
+		insertStatement.setString( 2, type );
+		insertStatement.setString( 3, machineSnapshot.getComment() );
 		insertStatement.executeUpdate();
-
+		
+		final long primaryKey = fetchNextPrimaryKey( connection );
 		final ChannelSnapshot[] channelSnapshots = machineSnapshot.getChannelSnapshots();
 		channelSnapshotTable.insert( connection, databaseAdaptor, channelSnapshots, primaryKey );
 
@@ -217,7 +218,7 @@ class MachineSnapshotTable {
 	 * @throws java.sql.SQLException  if an exception occurs during a SQL evaluation
 	 */
 	protected PreparedStatement getInsertStatement( final Connection connection ) throws SQLException {
-		return connection.prepareStatement( "INSERT INTO " + TABLE_NAME + "(" + PRIMARY_KEY + ", " + TIMESTAMP_COLUMN + ", " + TYPE_COLUMN + ", " + COMMENT_COLUMN + ")" + " VALUES (?, ?, ?, ?)" );
+		return connection.prepareStatement( "INSERT INTO " + TABLE_NAME + "(" + TIMESTAMP_COLUMN + ", " + TYPE_COLUMN + ", " + COMMENT_COLUMN + ")" + " VALUES (?, ?, ?)" );
 	}
 
 

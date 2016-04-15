@@ -151,6 +151,8 @@ public abstract class DatabaseAdaptor {
 	public ResultSet getColumnsResultSet( final DatabaseMetaData metaData, final String schema, final String table ) throws SQLException {
 		return metaData.getColumns( null, schema, table, null );
 	}
+//TODO should add a method here	
+//	abstract public long insert( final Connection connection, final Map<String,Object> items, final long key, final String nextPrimaryKey );
 
 
 	/**
