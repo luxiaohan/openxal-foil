@@ -97,7 +97,7 @@ ENGINE = InnoDB; */
 CREATE  TABLE IF NOT EXISTS `pvlog`.`mach_snapshot_type_sgnl` (
   `SNAPSHOT_TYPE_NM` VARCHAR(120) NOT NULL ,
   `SGNL_ID` VARCHAR(45) NOT NULL ,
---  `ACTIVE_IND` CHAR(1)  NOT NULL ,
+  `ACTIVE_IND` CHAR(1)  NOT NULL DEFAULT 'Y',
   INDEX `FK_SGNL_ID_idx` (`SGNL_ID` ASC) ,
   INDEX `SNAPSHOT_TYPE_NM_idx` (`SNAPSHOT_TYPE_NM` ASC) ,
   PRIMARY KEY (`SNAPSHOT_TYPE_NM`,`SGNL_ID`) ,
@@ -112,15 +112,15 @@ ENGINE = InnoDB;
 -- Table `pvlog`.`mach_snapshot_sgnl`
 -- -----------------------------------------------------
 CREATE  TABLE IF NOT EXISTS `pvlog`.`mach_snapshot_sgnl` (
-  `SNAPSHOT_ID` INT(8) NULL ,
+  `SNAPSHOT_ID` INT NULL ,
   `SGNL_ID` VARCHAR(75) NULL ,
-  `SGNL_TIMESTP` TIMESTAMP(6) NOT NULL ,
+  `SGNL_TIMESTP` TIMESTAMP NOT NULL ,
   `SGNL_VAL` VARCHAR(75) NOT NULL ,
   `SGNL_STAT` DECIMAL(4,0) NOT NULL ,
   `SGNL_SVRTY` DECIMAL(4,0) NOT NULL ,
   CONSTRAINT `FK_SGNL_ID_a`
     FOREIGN KEY (`SGNL_ID` )
-    REFERENCES `pvlog`.`mach_snapshot_type_sgnlmach_snapshot_type_sgnl` (`SGNL_ID` )
+    REFERENCES `pvlog`.`mach_snapshot_type_sgnl` (`SGNL_ID` )
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;

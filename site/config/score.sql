@@ -2,13 +2,13 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
-CREATE SCHEMA IF NOT EXISTS `SCORE` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci ;
-USE `SCORE` ;
+CREATE SCHEMA IF NOT EXISTS `score` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci ;
+USE `score` ;
 
 -- -----------------------------------------------------
 -- Table `score`.``
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `score`.`score_sanpshot_grp` (
+CREATE  TABLE IF NOT EXISTS `score`.`score_snapshot_grp` (
   `EQUIP_CAT_ID` VARCHAR(10) NOT NULL ,
   `MOD_DTE` DATE NOT NULL ,
   `DESCR` VARCHAR(255) NULL,
