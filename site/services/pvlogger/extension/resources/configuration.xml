@@ -12,7 +12,7 @@
 		<dbtable entity="SnapshotGroupChannel" name="pvlog.mach_snapshot_type_sgnl">
 			<column attribute="group" column="snapshot_type_nm" />
 			<column attribute="channel" column="sgnl_id" />
-			<!--column attribute="active" column="active_ind" /-->
+			<column attribute="active" column="active_ind" />
 		</dbtable>
 		<dbtable entity="MachineSnapshot" name="pvlog.mach_snapshot">
 			<column attribute="primaryKey" column="snapshot_id" sequence = "true"/>
@@ -20,7 +20,6 @@
 			<column attribute="type" column="snapshot_type_nm" />
 			<column attribute="comment" column="cmnt" />
 			<!--query name="nextPrimaryKey" sql="SELECT pvlog.mach_snapshot_id_seq.nextval FROM dual" /-->
-			<query name="nextPrimaryKey" sql="SELECT LAST_INSERT_ID()" />
 		</dbtable>
 		<service name="PHYSICS">
 			<dbtable entity="ChannelSnapshot" name="pvlog.mach_snapshot_sgnl">
