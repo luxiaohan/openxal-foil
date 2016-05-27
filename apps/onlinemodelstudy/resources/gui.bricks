@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BricksDocument date="Thu May 26 16:40:14 EDT 2016" version="1.0.0">
+    <RootBrick>
+        <ViewNode customBeanClass="xal.extension.application.smf.DefaultAcceleratorWindow" height="400" tag="MainWindow" width="500">
+            <ViewProxy type="javax.swing.JFrame"/>
+        </ViewNode>
+    </RootBrick>
+</BricksDocument>
