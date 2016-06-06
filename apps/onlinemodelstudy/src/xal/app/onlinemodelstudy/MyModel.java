@@ -7,8 +7,9 @@ import xal.model.ModelException;
 import xal.smf.AcceleratorSeq;
 
 /**
+ * The model holds the simulator and data
  * @author X.H LU
- *The model holds the simulator and data
+ *
  */
 public class MyModel {
 	
@@ -28,7 +29,7 @@ public class MyModel {
 	
 	/**run the model*/
 	public void runModel() {
-		
+		SIMULATOR.run();
 	}
 
 }

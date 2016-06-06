@@ -12,6 +12,7 @@ import xal.model.alg.TransferMapTracker;
 import xal.model.probe.EnvelopeProbe;
 import xal.model.probe.Probe;
 import xal.model.probe.TransferMapProbe;
+import xal.model.probe.traj.ProbeState;
 import xal.sim.scenario.AlgorithmFactory;
 import xal.sim.scenario.ProbeFactory;
 import xal.sim.scenario.Scenario;
@@ -51,7 +52,7 @@ public class MySimulator {
 			
 			_sequence = sequence;
 			
-			_entranceProbe = entranceProbe != null ? entranceProbe : sequence != null ? getDefaultProbe( sequence ) : null;
+			_entranceProbe = entranceProbe != null ? copyProbe( entranceProbe ) : sequence != null ? getDefaultProbe( sequence ) : null;
 			
 			configScenario();
 		}
@@ -82,8 +83,7 @@ public class MySimulator {
 	public void run() {
 		try {
 			_isRunning = true;
-//			final Probe<?> probe = copyProbe( _entranceProbe );	// perform a deep copy of the entrance probe leaving the entrance probe unmodified
-			final Probe<?> probe = _entranceProbe;
+			final Probe<?> probe = copyProbe( _entranceProbe );	// perform a deep copy of the entrance probe leaving the entrance probe unmodified
             _scenario.setProbe( probe );
 			_scenario.resync();
 			_scenario.run();
@@ -98,12 +98,7 @@ public class MySimulator {
 		}
 	}
 	
-	
-	
-	
-	
-	
-	
+		
 	/**
 	 * Get the default probe for the specified sequence.
 	 * @param sequence the sequence for which to get the default probe
@@ -120,6 +115,17 @@ public class MySimulator {
 			throw new RuntimeException( "Exception creating the default probe.", exception );
 		}
 	}
+	
+    /** 
+     * Construct a new probe from the given probe
+     * @param entranceProbe probe to copy
+     * @return new probe constructed from the given probe
+     */
+    static private Probe<? extends ProbeState<?>> copyProbe( final Probe<?> entranceProbe ) {
+        final Probe<? extends ProbeState<?>> probe = entranceProbe.copy();		// performs a deep copy of the probe including algorithm
+        probe.initialize();
+        return probe;
+    }
 	
 	/** create a new ring probe */
 	private TransferMapProbe createRingProbe( final AcceleratorSeq sequence ) throws InstantiationException {

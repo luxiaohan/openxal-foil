@@ -82,6 +82,14 @@ public class MyDocument extends AcceleratorDocument implements DataListener{
     public void saveDocumentAs(URL url) { 	
     	writeDataTo( this, url);
 	}
+    
+    /**
+     * get the model
+     * @return
+     */
+    public MyModel getModel() {
+    	return MODEL;
+    }
         
     
     /**
