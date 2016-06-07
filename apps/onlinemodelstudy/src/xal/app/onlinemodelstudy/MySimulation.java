@@ -26,6 +26,7 @@ public class MySimulation {
 	/** Constructor */
     public MySimulation( final Probe<?> probe ) {
         trajectory = probe.getTrajectory();
+        
 		final SimpleSimResultsAdaptor resultsAdaptor = new SimpleSimResultsAdaptor( trajectory );
 		
         SIMULATION_RECORDS = new ArrayList<MySimulationRecord>( trajectory.numStates() );

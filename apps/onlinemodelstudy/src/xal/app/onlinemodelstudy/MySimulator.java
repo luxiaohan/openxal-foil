@@ -80,18 +80,21 @@ public class MySimulator {
 	 * Run the simulation.
 	 * @return the generated simulation or null if the run failed.
 	 */
-	public void run() {
+	public MySimulation run() {
 		try {
 			_isRunning = true;
 			final Probe<?> probe = copyProbe( _entranceProbe );	// perform a deep copy of the entrance probe leaving the entrance probe unmodified
             _scenario.setProbe( probe );
 			_scenario.resync();
 			_scenario.run();
+			
+			return new MySimulation( probe );
 		}
 		catch( Exception exception ) {
 			Logger.getLogger(Logger.GLOBAL_LOGGER_NAME).log( Level.SEVERE, "Exception running the online model.", exception );
 			exception.printStackTrace();
 			System.out.println( "online model calculation failed..." );
+			return null;
 		}
 		finally {
 			_isRunning = false;
