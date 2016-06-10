@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="xal.sim.scenario.Scenario" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/Scenario.java" binary="false" label="scenario" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="76" y="0"/>    
+    <execution id="2">      
+      <position height="1087" width="83" x="5" y="111"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="21" width="7" x="43" y="1135"/>    
+    </execution>  
+  </object>  
+  <object id="6" language="java" name="xal.sim.scenario.ScenarioGenerator" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/ScenarioGenerator.java" binary="false" label="scenarioGenerator" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="180" y="0"/>    
+    <execution id="4">      
+      <position height="1045" width="151" x="92" y="132"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="xal.sim.sync.SynchronizationManager" project="open-test" 
+    file="/open-test/core/src/xal/sim/sync/SynchronizationManager.java" binary="false" label="mgrSync" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="153"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="xal.sim.scenario.LatticeSequence" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/LatticeSequence.java" binary="false" label="latSeq" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="398" width="0" x="0" y="195"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="500" width="0" x="0" y="614"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="262" width="0" x="0" y="237"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="21" width="0" x="0" y="457"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="354" width="0" x="0" y="656"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="1041"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="21" width="0" x="0" y="708"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="21" width="0" x="0" y="760"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="21" width="0" x="0" y="812"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="21" width="0" x="0" y="864"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="21" width="0" x="0" y="916"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="21" width="0" x="0" y="968"/>    
+    </execution>  
+  </object>  
+  <object id="50" language="java" name="xal.model.elem.ElementSeq" project="open-test" 
+    file="/open-test/core/src/xal/model/elem/ElementSeq.java" binary="false" label="mdlLattice" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="1072"/>    
+    </execution>  
+  </object>  
+  <object id="51" language="java" name="xal.smf.AcceleratorNode" project="open-test" 
+    file="/open-test/core/src/xal/smf/AcceleratorNode.java" binary="false" label="smfNode" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="268"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="310"/>    
+    </execution>  
+  </object>  
+  <object id="52" language="java" name="xal.smf.impl.Bend" project="open-test" 
+    file="/open-test/core/src/xal/smf/impl/Bend.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="352"/>    
+    </execution>  
+  </object>  
+  <object id="53" language="java" name="xal.smf.impl.Magnet" project="open-test" 
+    file="/open-test/core/src/xal/smf/impl/Magnet.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="394"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="xal.smf.AcceleratorSeq" project="open-test" 
+    file="/open-test/core/src/xal/smf/AcceleratorSeq.java" binary="false" label="smfSeqRoot" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="509"/>    
+    </execution>  
+  </object>  
+  <object id="55" language="java" name="xal.sim.scenario.ElementMapping" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/ElementMapping.java" binary="false" label="mapNodeToElem" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="551"/>    
+    </execution>  
+  </object>  
+  <note id="56">    
+    <position height="61" width="200" x="284" y="766"/>    
+    <text><![CDATA[The propagation to split and generate model elements is proceeded here]]>
+    </text>  
+  </note>  
+  <message id="3" operation="generateScenario(xal.smf.AcceleratorSeq):xal.sim.scenario.Scenario" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="SynchronizationManager()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="LatticeSequence(xal.smf.AcceleratorSeq,xal.sim.scenario.ElementMapping)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="createModelLattice(xal.sim.sync.SynchronizationManager):xal.model.Lattice" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="Scenario(xal.smf.AcceleratorSeq,xal.model.Lattice,xal.sim.sync.SynchronizationManager)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="16" 
+    operation="LatticeElement(xal.smf.AcceleratorNode,double,java.lang.Class&lt;? extends xal.model.IComponent&gt;,int)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="getLength():double" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="getModelSequenceType(xal.smf.AcceleratorSeq):java.lang.Class&lt;? extends IComposite&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="createModelSequence(xal.sim.sync.SynchronizationManager):xal.model.IComposite" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="createParentLattice():xal.model.Lattice" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="addChild(xal.model.IComponent):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="getId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="getLength():double" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="getDfltPathLength():double" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="getEffLength():double" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="isThin():boolean" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="38" operation="populateLatticeSeq():void" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" operation="enforceAxisOrigin():void" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="42" operation="placeOrphanedElements():void" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="44" operation="sortElements():void" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="46" operation="splitSequenceElements():void" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="48" operation="createModelElements(xal.sim.sync.SynchronizationManager):xal.model.IComposite" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>
+</sequence-diagram>

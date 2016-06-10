@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="xal.smf.data.XMLDataManager" project="open-test" 
+    file="/open-test/core/src/xal/smf/data/XMLDataManager.java" binary="false" label="&lt;static&gt;" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="89" y="0"/>    
+    <execution id="2">      
+      <position height="5216" width="143" x="5" y="118"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="5153" width="143" x="5" y="160"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="5080" width="0" x="0" y="212"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="264"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="4955" width="0" x="0" y="316"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="4882" width="0" x="0" y="368"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="xal.smf.data.XMLDataManager.AcceleratorManager" project="open-test" 
+    file="/open-test/core/src/xal/smf/data/XMLDataManager.java" binary="false" label="acceleratorManager" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="89" y="0"/>    
+    <execution id="14">      
+      <position height="4830" width="0" x="0" y="399"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="441"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="21" width="0" x="0" y="997"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="21" width="0" x="0" y="5135"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="21" width="0" x="0" y="5187"/>    
+    </execution>  
+  </object>  
+  <object id="46" language="java" name="xal.tools.xml.XmlDataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/xml/XmlDataAdaptor.java" binary="false" label="&lt;static&gt;" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="472"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="xal.tools.xml.XmlDataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/xml/XmlDataAdaptor.java" binary="false" label="adaptor" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="514"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="640"/>    
+    </execution>  
+  </object>  
+  <object id="48" language="java" name="xal.smf.data.XMLDataManager.DeviceManager" project="open-test" 
+    file="/open-test/core/src/xal/smf/data/XMLDataManager.java" binary="false" label="DEVICE_MANAGER" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="766"/>    
+    </execution>  
+  </object>  
+  <object id="49" language="java" name="xal.smf.data.XMLDataManager.TableManager" project="open-test" 
+    file="/open-test/core/src/xal/smf/data/XMLDataManager.java" binary="false" label="tableManager" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="89" y="0"/>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="850"/>    
+    </execution>  
+  </object>  
+  <object id="50" language="java" name="xal.smf.Accelerator" project="open-test" 
+    file="/open-test/core/src/xal/smf/Accelerator.java" binary="false" label="accelerator" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="682"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="724"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="808"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="892"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="21" width="0" x="0" y="934"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="4065" width="0" x="0" y="1028"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="21" width="0" x="0" y="1364"/>    
+    </execution>    
+    <execution id="72">      
+      <position height="21" width="0" x="0" y="5051"/>    
+    </execution>    
+    <execution id="73">      
+      <position height="21" width="0" x="0" y="1525"/>    
+    </execution>  
+  </object>  
+  <object id="74" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="adaptor1" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="52">      
+      <position height="21" width="0" x="0" y="1049"/>    
+    </execution>    
+    <execution id="54">      
+      <position height="21" width="0" x="0" y="1091"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="21" width="0" x="0" y="1133"/>    
+    </execution>    
+    <execution id="58">      
+      <position height="21" width="0" x="0" y="1175"/>    
+    </execution>    
+    <execution id="60">      
+      <position height="21" width="0" x="0" y="1217"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="21" width="0" x="0" y="1259"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="0" x="0" y="1301"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="21" width="0" x="0" y="4988"/>    
+    </execution>  
+  </object>  
+  <object id="75" language="java" name="xal.smf.AcceleratorSeq" project="open-test" 
+    file="/open-test/core/src/xal/smf/AcceleratorSeq.java" binary="false" label="acceleratorSeq" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="1052" y="0"/>    
+    <execution id="68">      
+      <position height="3567" width="127" x="1066" y="1400"/>    
+    </execution>    
+    <execution id="79">      
+      <position height="21" width="0" x="0" y="1494"/>    
+    </execution>    
+    <execution id="90">      
+      <position height="21" width="0" x="0" y="1756"/>    
+    </execution>    
+    <execution id="92">      
+      <position height="21" width="0" x="0" y="1808"/>    
+    </execution>    
+    <execution id="94">      
+      <position height="814" width="0" x="0" y="1860"/>    
+    </execution>    
+    <execution id="104">      
+      <position height="21" width="0" x="0" y="2873"/>    
+    </execution>    
+    <execution id="106">      
+      <position height="21" width="0" x="0" y="2925"/>    
+    </execution>    
+    <execution id="108">      
+      <position height="1969" width="0" x="0" y="2977"/>    
+    </execution>    
+    <execution id="114">      
+      <position height="21" width="0" x="0" y="1996"/>    
+    </execution>    
+    <execution id="116">      
+      <position height="21" width="0" x="0" y="2048"/>    
+    </execution>    
+    <execution id="118">      
+      <position height="21" width="0" x="0" y="2100"/>    
+    </execution>    
+    <execution id="120">      
+      <position height="21" width="0" x="0" y="2152"/>    
+    </execution>    
+    <execution id="122">      
+      <position height="21" width="0" x="0" y="2204"/>    
+    </execution>    
+    <execution id="124">      
+      <position height="21" width="0" x="0" y="2256"/>    
+    </execution>    
+    <execution id="126">      
+      <position height="345" width="0" x="0" y="2308"/>    
+    </execution>    
+    <execution id="144">      
+      <position height="21" width="0" x="0" y="2402"/>    
+    </execution>    
+    <execution id="152">      
+      <position height="21" width="0" x="0" y="2580"/>    
+    </execution>    
+    <execution id="130">      
+      <position height="21" width="0" x="0" y="3071"/>    
+    </execution>    
+    <execution id="138">      
+      <position height="21" width="0" x="0" y="3249"/>    
+    </execution>  
+  </object>  
+  <object id="155" language="java" name="xal.smf.AcceleratorNodeFactory" project="open-test" 
+    file="/open-test/core/src/xal/smf/AcceleratorNodeFactory.java" binary="false" label="nodeFactory" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="146">      
+      <position height="21" width="0" x="0" y="2433"/>    
+    </execution>    
+    <execution id="132">      
+      <position height="21" width="0" x="0" y="3102"/>    
+    </execution>  
+  </object>  
+  <object id="156" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="adaptor2" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="82">      
+      <position height="21" width="0" x="0" y="1567"/>    
+    </execution>    
+    <execution id="96">      
+      <position height="21" width="0" x="0" y="2684"/>    
+    </execution>  
+  </object>  
+  <object id="157" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="sequenceAdaptor" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="84">      
+      <position height="21" width="0" x="0" y="1609"/>    
+    </execution>    
+    <execution id="86">      
+      <position height="21" width="0" x="0" y="1651"/>    
+    </execution>    
+    <execution id="88">      
+      <position height="21" width="0" x="0" y="1693"/>    
+    </execution>    
+    <execution id="110">      
+      <position height="21" width="0" x="0" y="1891"/>    
+    </execution>    
+    <execution id="112">      
+      <position height="21" width="0" x="0" y="1933"/>    
+    </execution>  
+  </object>  
+  <object id="158" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="nodeAdaptor" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="98">      
+      <position height="21" width="0" x="0" y="2726"/>    
+    </execution>    
+    <execution id="100">      
+      <position height="21" width="0" x="0" y="2768"/>    
+    </execution>    
+    <execution id="102">      
+      <position height="21" width="0" x="0" y="2810"/>    
+    </execution>    
+    <execution id="142">      
+      <position height="21" width="0" x="0" y="2339"/>    
+    </execution>    
+    <execution id="128">      
+      <position height="21" width="0" x="0" y="3008"/>    
+    </execution>  
+  </object>  
+  <object id="159" language="java" name="xal.smf.AcceleratorNode" project="open-test" 
+    file="/open-test/core/src/xal/smf/AcceleratorNode.java" binary="false" label="node" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="148">      
+      <position height="21" width="0" x="0" y="2475"/>    
+    </execution>    
+    <execution id="150">      
+      <position height="21" width="0" x="0" y="2517"/>    
+    </execution>    
+    <execution id="154">      
+      <position height="21" width="0" x="0" y="2611"/>    
+    </execution>    
+    <execution id="77">      
+      <position height="21" width="137" x="1531" y="1421"/>    
+    </execution>    
+    <execution id="134">      
+      <position height="21" width="0" x="0" y="3144"/>    
+    </execution>    
+    <execution id="136">      
+      <position height="21" width="0" x="0" y="3186"/>    
+    </execution>    
+    <execution id="140">      
+      <position height="1645" width="0" x="0" y="3280"/>    
+    </execution>    
+    <execution id="179">      
+      <position height="21" width="0" x="0" y="3784"/>    
+    </execution>    
+    <execution id="185">      
+      <position height="21" width="0" x="0" y="3920"/>    
+    </execution>    
+    <execution id="191">      
+      <position height="21" width="0" x="0" y="4056"/>    
+    </execution>    
+    <execution id="199">      
+      <position height="21" width="0" x="0" y="4234"/>    
+    </execution>    
+    <execution id="207">      
+      <position height="21" width="0" x="0" y="4831"/>    
+    </execution>    
+    <execution id="209">      
+      <position height="21" width="0" x="0" y="4883"/>    
+    </execution>  
+  </object>  
+  <object id="210" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="adaptor3" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="161">      
+      <position height="21" width="0" x="0" y="3301"/>    
+    </execution>    
+    <execution id="163">      
+      <position height="21" width="0" x="0" y="3343"/>    
+    </execution>    
+    <execution id="165">      
+      <position height="21" width="0" x="0" y="3385"/>    
+    </execution>    
+    <execution id="167">      
+      <position height="21" width="0" x="0" y="3427"/>    
+    </execution>    
+    <execution id="169">      
+      <position height="21" width="0" x="0" y="3469"/>    
+    </execution>    
+    <execution id="171">      
+      <position height="21" width="0" x="0" y="3511"/>    
+    </execution>    
+    <execution id="173">      
+      <position height="21" width="0" x="0" y="3553"/>    
+    </execution>    
+    <execution id="175">      
+      <position height="21" width="0" x="0" y="3595"/>    
+    </execution>    
+    <execution id="177">      
+      <position height="21" width="0" x="0" y="3637"/>    
+    </execution>    
+    <execution id="181">      
+      <position height="21" width="0" x="0" y="3815"/>    
+    </execution>    
+    <execution id="183">      
+      <position height="21" width="0" x="0" y="3857"/>    
+    </execution>    
+    <execution id="187">      
+      <position height="21" width="0" x="0" y="3951"/>    
+    </execution>    
+    <execution id="189">      
+      <position height="21" width="0" x="0" y="3993"/>    
+    </execution>    
+    <execution id="193">      
+      <position height="21" width="0" x="0" y="4087"/>    
+    </execution>    
+    <execution id="197">      
+      <position height="21" width="0" x="0" y="4171"/>    
+    </execution>  
+  </object>  
+  <object id="211" language="java" name="xal.smf.ChannelSuite" project="open-test" 
+    file="/open-test/core/src/xal/smf/ChannelSuite.java" binary="false" label="channelSuite" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="195">      
+      <position height="21" width="0" x="0" y="4129"/>    
+    </execution>  
+  </object>  
+  <object id="212" language="java" name="xal.smf.data.BucketParser" project="open-test" 
+    file="/open-test/core/src/xal/smf/data/BucketParser.java" binary="false" label="parser" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="201">      
+      <position height="21" width="0" x="0" y="4265"/>    
+    </execution>    
+    <execution id="203">      
+      <position height="440" width="0" x="0" y="4307"/>    
+    </execution>    
+    <execution id="205">      
+      <position height="21" width="0" x="0" y="4768"/>    
+    </execution>    
+    <execution id="218">      
+      <position height="21" width="0" x="0" y="4433"/>    
+    </execution>    
+    <execution id="222">      
+      <position height="21" width="0" x="0" y="4527"/>    
+    </execution>  
+  </object>  
+  <object id="225" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="adaptor4" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="214">      
+      <position height="21" width="0" x="0" y="4328"/>    
+    </execution>  
+  </object>  
+  <object id="226" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="bucketAdaptor" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="216">      
+      <position height="21" width="0" x="0" y="4370"/>    
+    </execution>  
+  </object>  
+  <object id="227" language="java" name="xal.smf.attr.AttributeBucketFactory" project="open-test" 
+    file="/open-test/core/src/xal/smf/attr/AttributeBucketFactory.java" binary="false" label="&lt;static&gt;" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="220">      
+      <position height="21" width="0" x="0" y="4464"/>    
+    </execution>  
+  </object>  
+  <object id="228" language="java" name="xal.smf.attr.AttributeBucket" project="open-test" 
+    file="/open-test/core/src/xal/smf/attr/AttributeBucket.java" binary="false" label="bucket" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="224">      
+      <position height="168" width="0" x="0" y="4558"/>    
+    </execution>    
+    <execution id="234">      
+      <position height="21" width="0" x="0" y="4684"/>    
+    </execution>  
+  </object>  
+  <object id="235" language="java" name="xal.tools.data.DataAdaptor" project="open-test" 
+    file="/open-test/core/src/xal/tools/data/DataAdaptor.java" binary="false" label="adaptor5" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="230">      
+      <position height="21" width="0" x="0" y="4579"/>    
+    </execution>    
+    <execution id="232">      
+      <position height="21" width="0" x="0" y="4621"/>    
+    </execution>  
+  </object>  
+  <note id="236">    
+    <position height="48" width="200" x="928" y="2018"/>    
+    <text><![CDATA[Create new AcceleratorSeq Instance here]]>
+    </text>  
+  </note>  
+  <note id="237">    
+    <position height="26" width="200" x="922" y="2179"/>    
+    <text><![CDATA[Then add to Accelerator]]>
+    </text>  
+  </note>  
+  <note id="238">    
+    <position height="30" width="273" x="850" y="2127"/>    
+    <text><![CDATA[Then recall {upate} to propagate Nodes]]>
+    </text>  
+  </note>  
+  <note id="239">    
+    <position height="43" width="200" x="929" y="3077"/>    
+    <text><![CDATA[Create new AcceleratorNode Instance here]]>
+    </text>  
+  </note>  
+  <note id="240">    
+    <position height="57" width="200" x="924" y="3150"/>    
+    <text><![CDATA[Then call update of AcceleratorNode to parse attr values]]>
+    </text>  
+  </note>  
+  <note id="241">    
+    <position height="45" width="200" x="923" y="3213"/>    
+    <text><![CDATA[Then add to current sequence]]>
+    </text>  
+  </note>  
+  <note id="242">    
+    <position height="43" width="200" x="1590" y="4109"/>    
+    <text><![CDATA[Add the associated Channels information]]>
+    </text>  
+  </note>  
+  <note id="243">    
+    <position height="127" width="200" x="1949" y="4400"/>    
+    <text><![CDATA[If the AttributeBucket wasn't created when instance an AcceleratorNode,then create here.
+Usually, the ArrtibuteBucket will be created with AcceleratorNode]]>
+    </text>  
+  </note>  
+  <note id="244">    
+    <position height="41" width="200" x="2489" y="4653"/>    
+    <text><![CDATA[load attribues values here from DataAdaptor]]>
+    </text>  
+  </note>  
+  <message id="3" operation="acceleratorWithPath(java.lang.String):xal.smf.Accelerator" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="acceleratorWithPath(java.lang.String,xal.ca.ChannelFactory):xal.smf.Accelerator" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="managerWithFilePath(java.lang.String,xal.ca.ChannelFactory):xal.smf.data.XMLDataManager" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="getAccelerator():xal.smf.Accelerator" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="getAccelerator(boolean):xal.smf.Accelerator" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="getAccelerator(boolean):xal.smf.Accelerator" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="16" operation="absoluteUrlSpec(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="adaptorForUrl(java.lang.String,boolean,java.lang.String):xal.tools.xml.XmlDataAdaptor" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="document():org.w3c.dom.Document" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="childAdaptor(java.lang.String):xal.tools.data.DataAdaptor" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="Accelerator(xal.ca.ChannelFactory)" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="setNodeFactory(xal.smf.AcceleratorNodeFactory):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="getNodeFactory():xal.smf.AcceleratorNodeFactory" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="setElementMapping(xal.sim.scenario.ElementMapping):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="readEditContext(boolean):xal.tools.data.EditContext" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="setEditContext(xal.tools.data.EditContext):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="setTimingCenter(xal.smf.TimingCenter):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="38" operation="getTimingCenter():xal.smf.TimingCenter" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="42" operation="loadExtraOptics(xal.smf.Accelerator,boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="44" operation="loadHardwareStatus(xal.smf.Accelerator,boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="51" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="53" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="childAdaptor(java.lang.String):xal.tools.data.DataAdaptor" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="updatePowerSupplies(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="childAdaptors(java.lang.String):java.util.List&lt;DataAdaptor&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="addComboSequence(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="76" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="77"/>  
+  </message>  
+  <message id="78" operation="getAccelerator():xal.smf.Accelerator" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="79"/>  
+  </message>  
+  <message id="80" operation="getNodeFactory():xal.smf.AcceleratorNodeFactory" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="73"/>  
+  </message>  
+  <message id="81" operation="childAdaptors(java.lang.String):java.util.List&lt;DataAdaptor&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="82"/>  
+  </message>  
+  <message id="83" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="84"/>  
+  </message>  
+  <message id="85" operation="booleanValue(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="86"/>  
+  </message>  
+  <message id="87" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="88"/>  
+  </message>  
+  <message id="89" operation="getNodeWithId(java.lang.String):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="90"/>  
+  </message>  
+  <message id="91" operation="removeNode(xal.smf.AcceleratorNode):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="92"/>  
+  </message>  
+  <message id="93" 
+    operation="addChildSequence(xal.tools.data.DataAdaptor,xal.smf.Accelerator,xal.smf.AcceleratorNodeFactory):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="95" operation="childAdaptors(java.lang.String):java.util.List&lt;DataAdaptor&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="96"/>  
+  </message>  
+  <message id="97" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="98"/>  
+  </message>  
+  <message id="99" operation="booleanValue(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="100"/>  
+  </message>  
+  <message id="101" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="102"/>  
+  </message>  
+  <message id="103" operation="getNodeWithId(java.lang.String):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="104"/>  
+  </message>  
+  <message id="105" operation="removeNode(xal.smf.AcceleratorNode):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="106"/>  
+  </message>  
+  <message id="107" 
+    operation="addChildNode(xal.tools.data.DataAdaptor,xal.smf.Accelerator,xal.smf.AcceleratorNodeFactory):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="108"/>  
+  </message>  
+  <message id="109" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="110"/>  
+  </message>  
+  <message id="111" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="112"/>  
+  </message>  
+  <message id="113" operation="getNodeWithId(java.lang.String):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="114"/>  
+  </message>  
+  <message id="115" operation="AcceleratorSeq(java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="116"/>  
+  </message>  
+  <message id="117" operation="setAccelerator(xal.smf.Accelerator):void" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="118"/>  
+  </message>  
+  <message id="119" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="120"/>  
+  </message>  
+  <message id="121" operation="addNode(xal.smf.AcceleratorNode):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="122"/>  
+  </message>  
+  <message id="123" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="124"/>  
+  </message>  
+  <message id="125" 
+    operation="addChildNode(xal.tools.data.DataAdaptor,xal.smf.Accelerator,xal.smf.AcceleratorNodeFactory):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="126"/>  
+  </message>  
+  <message id="127" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="128"/>  
+  </message>  
+  <message id="129" operation="getNodeWithId(java.lang.String):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="130"/>  
+  </message>  
+  <message id="131" operation="createNode(xal.tools.data.DataAdaptor):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="132"/>  
+  </message>  
+  <message id="133" operation="setAccelerator(xal.smf.Accelerator):void" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="134"/>  
+  </message>  
+  <message id="135" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="136"/>  
+  </message>  
+  <message id="137" operation="addNode(xal.smf.AcceleratorNode):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="138"/>  
+  </message>  
+  <message id="139" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="108"/>    
+    <end type="TARGET" refId="140"/>  
+  </message>  
+  <message id="141" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="142"/>  
+  </message>  
+  <message id="143" operation="getNodeWithId(java.lang.String):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="144"/>  
+  </message>  
+  <message id="145" operation="createNode(xal.tools.data.DataAdaptor):xal.smf.AcceleratorNode" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="146"/>  
+  </message>  
+  <message id="147" operation="setAccelerator(xal.smf.Accelerator):void" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="148"/>  
+  </message>  
+  <message id="149" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="150"/>  
+  </message>  
+  <message id="151" operation="addNode(xal.smf.AcceleratorNode):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="152"/>  
+  </message>  
+  <message id="153" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="154"/>  
+  </message>  
+  <message id="160" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="161"/>  
+  </message>  
+  <message id="162" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="163"/>  
+  </message>  
+  <message id="164" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="165"/>  
+  </message>  
+  <message id="166" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="167"/>  
+  </message>  
+  <message id="168" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="169"/>  
+  </message>  
+  <message id="170" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="171"/>  
+  </message>  
+  <message id="172" operation="booleanValue(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="173"/>  
+  </message>  
+  <message id="174" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="175"/>  
+  </message>  
+  <message id="176" operation="doubleValue(java.lang.String):double" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="177"/>  
+  </message>  
+  <message id="178" operation="setLength(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="179"/>  
+  </message>  
+  <message id="180" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="181"/>  
+  </message>  
+  <message id="182" operation="doubleValue(java.lang.String):double" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="183"/>  
+  </message>  
+  <message id="184" operation="setPosition(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="185"/>  
+  </message>  
+  <message id="186" operation="hasAttribute(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="187"/>  
+  </message>  
+  <message id="188" operation="doubleValue(java.lang.String):double" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="189"/>  
+  </message>  
+  <message id="190" operation="setSDisplay(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="191"/>  
+  </message>  
+  <message id="192" operation="childAdaptor(java.lang.String):xal.tools.data.DataAdaptor" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="193"/>  
+  </message>  
+  <message id="194" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="195"/>  
+  </message>  
+  <message id="196" operation="childAdaptors(java.lang.String):java.util.List&lt;DataAdaptor&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="197"/>  
+  </message>  
+  <message id="198" operation="getBuckets():java.util.Collection&lt;AttributeBucket&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="199"/>  
+  </message>  
+  <message id="200" operation="BucketParser(java.util.Collection&lt;xal.smf.attr.AttributeBucket&gt;)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="201"/>  
+  </message>  
+  <message id="202" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="203"/>  
+  </message>  
+  <message id="204" operation="getBuckets():java.util.Collection&lt;AttributeBucket&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="205"/>  
+  </message>  
+  <message id="206" operation="hasBucket(xal.smf.attr.AttributeBucket):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="207"/>  
+  </message>  
+  <message id="208" operation="addBucket(xal.smf.attr.AttributeBucket):void" asynchronous="false">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="209"/>  
+  </message>  
+  <message id="213" operation="childAdaptors():java.util.List&lt;DataAdaptor&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="214"/>  
+  </message>  
+  <message id="215" operation="name():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="216"/>  
+  </message>  
+  <message id="217" operation="getBucket(java.lang.String):xal.smf.attr.AttributeBucket" asynchronous="false">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="218"/>  
+  </message>  
+  <message id="219" operation="create(java.lang.String):xal.smf.attr.AttributeBucket" asynchronous="false">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="220"/>  
+  </message>  
+  <message id="221" operation="add(xal.smf.attr.AttributeBucket):void" asynchronous="false">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="222"/>  
+  </message>  
+  <message id="223" operation="update(xal.tools.data.DataAdaptor):void" asynchronous="false">    
+    <end type="SOURCE" refId="203"/>    
+    <end type="TARGET" refId="224"/>  
+  </message>  
+  <message id="229" operation="attributes():java.lang.String[]" asynchronous="false">    
+    <end type="SOURCE" refId="224"/>    
+    <end type="TARGET" refId="230"/>  
+  </message>  
+  <message id="231" operation="stringValue(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="224"/>    
+    <end type="TARGET" refId="232"/>  
+  </message>  
+  <message id="233" operation="parseAttrValue(java.lang.String,java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="224"/>    
+    <end type="TARGET" refId="234"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="xal.app.machinesimulator.MachineSimulator" project="open-test" 
+    file="/open-test/apps/machinesimulator/src/xal/app/machinesimulator/MachineSimulator.java" binary="false" 
+    label="machineSimulator" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="2616" width="0" x="0" y="145"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="xal.sim.scenario.Scenario" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/Scenario.java" binary="false" label="scenario" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="2574" width="0" x="0" y="166"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="250"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="344"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="438"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="532"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="xal.model.probe.Probe" project="open-test" 
+    file="/open-test/core/src/xal/model/probe/Probe.java" binary="false" label="probe" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="187"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="647"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="689"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="1630"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="21" width="0" x="0" y="1672"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="1756"/>    
+    </execution>  
+  </object>  
+  <object id="36" language="java" name="xal.model.IAlgorithm" project="open-test" 
+    file="/open-test/core/src/xal/model/IAlgorithm.java" binary="false" label="alg" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="281"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="375"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="469"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="563"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="605"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="xal.model.Lattice" project="open-test" 
+    file="/open-test/core/src/xal/model/Lattice.java" binary="false" label="lattice" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="31">      
+      <position height="1946" width="0" x="0" y="773"/>    
+    </execution>  
+  </object>  
+  <object id="40" language="java" name="xal.model.elem.ElementSeq" project="open-test" 
+    file="/open-test/core/src/xal/model/elem/ElementSeq.java" binary="false" label="elementSeq" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="39">      
+      <position height="1904" width="0" x="0" y="794"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="21" width="0" x="0" y="836"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="21" width="7" x="555" y="906"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="xal.model.elem.Element" project="open-test" 
+    file="/open-test/core/src/xal/model/elem/Element.java" binary="false" label="element" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="46">      
+      <position height="1768" width="0" x="0" y="909"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="xal.model.alg.Tracker" project="open-test" 
+    file="/open-test/core/src/xal/model/alg/Tracker.java" binary="false" label="tracker" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="53">      
+      <position height="1600" width="0" x="0" y="1056"/>    
+    </execution>    
+    <execution id="51">      
+      <position height="21" width="0" x="0" y="972"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="21" width="0" x="0" y="1098"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="21" width="0" x="0" y="1318"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="21" width="0" x="0" y="1412"/>    
+    </execution>    
+    <execution id="74">      
+      <position height="21" width="0" x="0" y="2583"/>    
+    </execution>  
+  </object>  
+  <object id="77" language="java" name="xal.model.IProbe" project="open-test" 
+    file="/open-test/core/src/xal/model/IProbe.java" binary="false" label="probe" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="58">      
+      <position height="21" width="0" x="0" y="1129"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="21" width="0" x="0" y="1213"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="21" width="0" x="0" y="1349"/>    
+    </execution>    
+    <execution id="76">      
+      <position height="21" width="0" x="0" y="2614"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="21" width="67" x="845" y="931"/>    
+    </execution>    
+    <execution id="78">      
+      <position height="21" width="0" x="0" y="1860"/>    
+    </execution>    
+    <execution id="79">      
+      <position height="21" width="0" x="0" y="1902"/>    
+    </execution>    
+    <execution id="80">      
+      <position height="21" width="0" x="0" y="1944"/>    
+    </execution>    
+    <execution id="81">      
+      <position height="21" width="0" x="0" y="1986"/>    
+    </execution>    
+    <execution id="82">      
+      <position height="21" width="0" x="0" y="2154"/>    
+    </execution>    
+    <execution id="83">      
+      <position height="21" width="0" x="0" y="2196"/>    
+    </execution>    
+    <execution id="84">      
+      <position height="21" width="0" x="0" y="2238"/>    
+    </execution>    
+    <execution id="85">      
+      <position height="21" width="0" x="0" y="2280"/>    
+    </execution>    
+    <execution id="86">      
+      <position height="21" width="0" x="0" y="2478"/>    
+    </execution>  
+  </object>  
+  <object id="87" language="java" name="xal.model.IComponent" project="open-test" 
+    file="/open-test/core/src/xal/model/IComponent.java" binary="false" label="elem" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="60">      
+      <position height="21" width="0" x="0" y="1171"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="0" x="0" y="1255"/>    
+    </execution>    
+    <execution id="88">      
+      <position height="21" width="0" x="0" y="1494"/>    
+    </execution>    
+    <execution id="89">      
+      <position height="21" width="0" x="0" y="2028"/>    
+    </execution>    
+    <execution id="90">      
+      <position height="21" width="0" x="0" y="2070"/>    
+    </execution>    
+    <execution id="91">      
+      <position height="21" width="0" x="0" y="2112"/>    
+    </execution>  
+  </object>  
+  <object id="92" language="java" name="xal.model.alg.TransferMapTracker" project="open-test" 
+    file="/open-test/core/src/xal/model/alg/TransferMapTracker.java" binary="false" label="transferMapTracker" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="1025" y="0"/>    
+    <execution id="72">      
+      <position height="1120" width="160" x="956" y="1421"/>    
+    </execution>    
+    <execution id="94">      
+      <position height="21" width="0" x="0" y="1463"/>    
+    </execution>    
+    <execution id="97">      
+      <position height="241" width="0" x="0" y="1557"/>    
+    </execution>    
+    <execution id="99">      
+      <position height="691" width="0" x="0" y="1829"/>    
+    </execution>    
+    <execution id="119">      
+      <position height="21" width="0" x="0" y="2343"/>    
+    </execution>    
+    <execution id="121">      
+      <position height="21" width="0" x="0" y="2395"/>    
+    </execution>    
+    <execution id="123">      
+      <position height="21" width="0" x="0" y="2447"/>    
+    </execution>  
+  </object>  
+  <object id="125" language="java" name="xal.model.IElement" project="open-test" 
+    file="/open-test/core/src/xal/model/IElement.java" binary="false" label="ifcElem" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="101">      
+      <position height="21" width="0" x="0" y="1588"/>    
+    </execution>  
+  </object>  
+  <object id="126" language="java" name="xal.tools.beam.PhaseMap" project="open-test" 
+    file="/open-test/core/src/xal/tools/beam/PhaseMap.java" binary="false" label="mapPhi" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="105">      
+      <position height="21" width="0" x="0" y="1714"/>    
+    </execution>  
+  </object>  
+  <note id="127">    
+    <position height="168" width="221" x="826" y="134"/>    
+    <text><![CDATA[Element represents the  
+elements of Online Model
+
+e.g.IdealMagSectorDipole
+      IdealPermMagQuad
+      
+      IdealRfGap
+      IdealMagDipoleFace2]]>
+    </text>  
+  </note>  
+  <note id="128">    
+    <position height="234" width="179" x="466" y="89"/>    
+    <text><![CDATA[IProbe and Probe represent the same thing 
+
+IComponent , IElement and Element represent same thing
+
+TransferMapTracker ,Tracker and IAgorithm represent same thing
+
+when do the propagation.]]>
+    </text>  
+  </note>  
+  <note id="129">    
+    <position height="60" width="200" x="949" y="1333"/>    
+    <text><![CDATA[The calculation is proceeded in {doPropagation} of each Algorithm]]>
+    </text>  
+  </note>  
+  <note id="130">    
+    <position height="48" width="202" x="780" y="845"/>    
+    <text><![CDATA[loop is proceeded here to reach all the elements]]>
+    </text>  
+  </note>  
+  <message id="3" operation="run():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="getAlgorithm():xal.model.IAlgorithm" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="getStartElementId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="setStartElementId(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="getStartElementId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="unsetStartElementId():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="getStopElementId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="setStopElementId(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="getStopElementId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="setIncludeStopElement(boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="unsetStopElementId():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="initialize():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="update():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="propagate(xal.model.IProbe):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="38" operation="propagate(xal.model.IProbe):void" asynchronous="false">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="41" operation="getForwardCompList():java.util.List&lt;IComponent&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="forEach(java.util.function.Consumer&lt;? super T&gt;):void" asynchronous="false">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="propagate(xal.model.IProbe):void" asynchronous="false">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="48" operation="getAlgorithm():xal.model.IAlgorithm" asynchronous="false">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="50" operation="setElemPosition(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>  
+  <message id="52" operation="propagate(xal.model.IProbe,xal.model.IElement):void" asynchronous="false">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="53"/>  
+  </message>  
+  <message id="55" operation="validElement(xal.model.IElement):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="setCurrentElement(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="getId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="setCurrentHardwareId(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="getHardwareNodeId():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="getProbeUpdatePolicy():int" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="update():void" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="doPropagation(xal.model.IProbe,xal.model.IElement):void" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="doPropagation(xal.model.IProbe,xal.model.IElement):void" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="73" operation="getProbeUpdatePolicy():int" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="74"/>  
+  </message>  
+  <message id="75" operation="update():void" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="76"/>  
+  </message>  
+  <message id="93" operation="validProbe(xal.model.IProbe):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="95" operation="getLength():double" asynchronous="false">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="88"/>  
+  </message>  
+  <message id="96" operation="advanceState(xal.model.probe.TransferMapProbe,xal.model.IElement,double):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="97"/>  
+  </message>  
+  <message id="98" operation="advanceProbe(xal.model.IProbe,xal.model.IElement,double):void" asynchronous="false">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="99"/>  
+  </message>  
+  <message id="100" operation="transferMap(xal.model.IProbe,double):xal.tools.beam.PhaseMap" asynchronous="false">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="101"/>  
+  </message>  
+  <message id="102" operation="setPartialTransferMap(xal.tools.beam.PhaseMap):void" asynchronous="false">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="103" operation="getTransferMap():xal.tools.beam.PhaseMap" asynchronous="false">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="104" operation="compose(xal.tools.beam.PhaseMap):xal.tools.beam.PhaseMap" asynchronous="false">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="105"/>  
+  </message>  
+  <message id="106" operation="setTransferMap(xal.tools.beam.PhaseMap):void" asynchronous="false">    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="107" operation="getPosition():double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="78"/>  
+  </message>  
+  <message id="108" operation="getTime():double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="79"/>  
+  </message>  
+  <message id="109" operation="getLongitinalPhase():double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="80"/>  
+  </message>  
+  <message id="110" operation="getKineticEnergy():double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="81"/>  
+  </message>  
+  <message id="111" operation="elapsedTime(xal.model.IProbe,double):double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="89"/>  
+  </message>  
+  <message id="112" operation="longitudinalPhaseAdvance(xal.model.IProbe,double):double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="90"/>  
+  </message>  
+  <message id="113" operation="energyGain(xal.model.IProbe,double):double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="91"/>  
+  </message>  
+  <message id="114" operation="setPosition(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="82"/>  
+  </message>  
+  <message id="115" operation="setTime(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="83"/>  
+  </message>  
+  <message id="116" operation="setLongitudinalPhase(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="84"/>  
+  </message>  
+  <message id="117" operation="setKineticEnergy(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="85"/>  
+  </message>  
+  <message id="118" operation="setElemPosition(double):void" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="119"/>  
+  </message>  
+  <message id="120" operation="getElemPosition():double" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="121"/>  
+  </message>  
+  <message id="122" operation="getProbeUpdatePolicy():int" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="123"/>  
+  </message>  
+  <message id="124" operation="update():void" asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="86"/>  
+  </message>
+</sequence-diagram>
