@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BricksDocument date="Tue Jun 14 15:28:02 EDT 2016" version="1.0.0">
+    <RootBrick>
+        <ViewNode customBeanClass="xal.extension.application.DefaultXalWindow" height="400" tag="MainWindow" width="500">
+            <ViewProxy type="javax.swing.JFrame"/>
+            <ViewNode tag="Horizontal Box">
+                <ViewProxy type="javax.swing.Box_Horizontal"/>
+                <ViewNode tag="InputField">
+                    <ViewProxy type="javax.swing.JTextField"/>
+                </ViewNode>
+                <ViewNode tag="SayHello">
+                    <ViewProxy type="javax.swing.JButton"/>
+                    <BeanProperty name="name" value="SayHello"/>
+                    <BeanProperty name="text" value="SayHello"/>
+                </ViewNode>
+                <ViewNode tag="OutputField">
+                    <ViewProxy type="javax.swing.JTextField"/>
+                    <BeanProperty name="editable" value="false"/>
+                </ViewNode>
+            </ViewNode>
+        </ViewNode>
+    </RootBrick>
+</BricksDocument>
