@@ -70,7 +70,7 @@ public class WorkController {
 			}
 		});
 		
-/*		final JButton sumButton = (JButton)windowReference.getView( "SumButton" );
+		final JButton sumButton = (JButton)windowReference.getView( "SumButton" );
 		sumButton.addActionListener( event -> {
 			String fore = foreText.getText();
 			String after = afterText.getText();
@@ -80,7 +80,7 @@ public class WorkController {
 			else
 				result = Double.NaN;
 			sumField.setText( result.toString() );
-		});*/
+		});
 		
 		
 		final JButton totalButton = (JButton)windowReference.getView( "TotalButton" );
