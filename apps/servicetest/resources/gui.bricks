@@ -1,21 +1,65 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BricksDocument date="Tue Jun 14 15:28:02 EDT 2016" version="1.0.0">
+<BricksDocument date="Wed Jun 15 13:06:14 EDT 2016" version="1.0.0">
     <RootBrick>
         <ViewNode customBeanClass="xal.extension.application.DefaultXalWindow" height="400" tag="MainWindow" width="500">
             <ViewProxy type="javax.swing.JFrame"/>
-            <ViewNode tag="Horizontal Box">
-                <ViewProxy type="javax.swing.Box_Horizontal"/>
-                <ViewNode tag="InputField">
-                    <ViewProxy type="javax.swing.JTextField"/>
+            <ViewNode tag="Vertical Box">
+                <ViewProxy type="javax.swing.Box_Vertical"/>
+                <ViewNode tag="Horizontal Box">
+                    <ViewProxy type="javax.swing.Box_Horizontal"/>
+                    <ViewNode tag="InputField">
+                        <ViewProxy type="javax.swing.JTextField"/>
+                        <BeanProperty height="26" name="preferredSize" width="100"/>
+                        <BeanProperty height="26" name="maximumSize" width="1000"/>
+                        <BeanProperty name="text" value="someone"/>
+                    </ViewNode>
+                    <ViewNode tag="SayHello">
+                        <ViewProxy type="javax.swing.JButton"/>
+                        <BeanProperty name="name" value="SayHello"/>
+                        <BeanProperty name="text" value="SayHello"/>
+                    </ViewNode>
+                    <ViewNode tag="OutputField">
+                        <ViewProxy type="javax.swing.JTextField"/>
+                        <BeanProperty height="26" name="maximumSize" width="1000"/>
+                        <BeanProperty name="text" value=" "/>
+                        <BeanProperty name="editable" value="false"/>
+                    </ViewNode>
                 </ViewNode>
-                <ViewNode tag="SayHello">
+                <ViewNode tag="Horizontal Box">
+                    <ViewProxy type="javax.swing.Box_Horizontal"/>
+                    <ViewNode tag="ForeText">
+                        <ViewProxy type="javax.swing.JFormattedTextField"/>
+                        <BeanProperty height="26" name="maximumSize" width="100"/>
+                        <BeanProperty name="text" value="0"/>
+                    </ViewNode>
+                    <ViewNode tag="Button">
+                        <ViewProxy type="javax.swing.JButton"/>
+                        <BeanProperty name="enabled" value="false"/>
+                        <BeanProperty name="text" value="+"/>
+                    </ViewNode>
+                    <ViewNode tag="AfterText">
+                        <ViewProxy type="javax.swing.JFormattedTextField"/>
+                        <BeanProperty height="26" name="maximumSize" width="100"/>
+                        <BeanProperty name="focusable" value="true"/>
+                        <BeanProperty name="text" value="0"/>
+                        <BeanProperty name="dragEnabled" value="true"/>
+                        <BeanProperty name="editable" value="true"/>
+                        <BeanProperty name="enabled" value="true"/>
+                    </ViewNode>
+                    <ViewNode tag="SumButton">
+                        <ViewProxy type="javax.swing.JButton"/>
+                        <BeanProperty name="text" value="="/>
+                    </ViewNode>
+                    <ViewNode tag="SumField">
+                        <ViewProxy type="javax.swing.JTextField"/>
+                        <BeanProperty height="26" name="maximumSize" width="100"/>
+                        <BeanProperty name="text" value="Sum"/>
+                        <BeanProperty name="editable" value="false"/>
+                    </ViewNode>
+                </ViewNode>
+                <ViewNode tag="TotalButton">
                     <ViewProxy type="javax.swing.JButton"/>
-                    <BeanProperty name="name" value="SayHello"/>
-                    <BeanProperty name="text" value="SayHello"/>
-                </ViewNode>
-                <ViewNode tag="OutputField">
-                    <ViewProxy type="javax.swing.JTextField"/>
-                    <BeanProperty name="editable" value="false"/>
+                    <BeanProperty name="text" value="TotalButton"/>
                 </ViewNode>
             </ViewNode>
         </ViewNode>
