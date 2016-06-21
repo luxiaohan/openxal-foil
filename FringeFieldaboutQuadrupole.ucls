@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="xal.smf.impl.Quadrupole" project="open-test" 
+    file="/open-test/core/src/xal/smf/impl/Quadrupole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="159" y="125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="xal.model.elem.IdealMagFringeQuad" project="open-test" 
+    file="/open-test/core/src/xal/model/elem/IdealMagFringeQuad.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="493" y="207"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="xal.model.elem.IdealMagQuad" project="open-test" 
+    file="/open-test/core/src/xal/model/elem/IdealMagQuad.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="287" y="397"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="xal.model.elem.IdealMagFringeQuadFace" project="open-test" 
+    file="/open-test/core/src/xal/model/elem/IdealMagFringeQuadFace.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="505" y="400"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <note id="5">    
+    <position height="86" width="155" x="198" y="177"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Use IdealMagQuad directly or Use IdealMagFringeQuad to represent Quadrupole in the Online Model]]>
+    </text>  
+  </note>  
+  <note id="6">    
+    <position height="43" width="174" x="393" y="507"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[How to determine the transfer matrix here?]]>
+    </text>  
+  </note>  
+  <text-link id="7">    
+    <link-end type="SOURCE" refId="5"/>    
+    <link-end type="TARGET" refId="2"/>  
+  </text-link>  
+  <text-link id="8">    
+    <link-end type="SOURCE" refId="5"/>    
+    <link-end type="TARGET" refId="3"/>  
+  </text-link>  
+  <association id="9">    
+    <end type="SOURCE" refId="2" navigable="false" variant="ASSOCIATION">      
+      <attribute id="10" name="magBody"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <bendpoint x="536" y="301"/>    
+    <end type="SOURCE" refId="2" navigable="false" variant="ASSOCIATION">      
+      <attribute id="13" name="polEntr"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <text-link id="15">    
+    <link-end type="SOURCE" refId="5"/>    
+    <link-end type="TARGET" refId="1"/>  
+  </text-link>  
+  <text-link id="16">    
+    <link-end type="SOURCE" refId="6"/>    
+    <link-end type="TARGET" refId="4"/>  
+  </text-link>  
+  <association id="17">    
+    <bendpoint x="447" y="308"/>    
+    <end type="SOURCE" refId="2" navigable="false" variant="ASSOCIATION">      
+      <attribute id="18" name="polExit"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

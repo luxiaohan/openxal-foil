@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="xal.service.worker.Main" project="open-test" 
+    file="/open-test/services/worker/src/xal/service/worker/Main.java" binary="false" label="main" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="116" y="0"/>  
+  </object>
+</sequence-diagram>
