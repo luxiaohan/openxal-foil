@@ -84,6 +84,12 @@ public class WorkController {
 		
 		
 		final JButton totalButton = (JButton)windowReference.getView( "TotalButton" );
+		totalButton.addActionListener( event -> {
+			if ( _workService != null ) 
+				_workService.shutdown(0);
+			else
+				totalButton.setText("No Service");
+		});
 	
 		
 	}
@@ -94,8 +100,7 @@ public class WorkController {
 			
 			@Override
 			public void serviceRemoved(ServiceDirectory directory, String type, String name) {
-				// TODO Auto-generated method stub
-				
+				_workService = null;
 			}
 			
 			@Override

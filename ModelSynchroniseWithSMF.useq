@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="xal.sim.scenario.LatticeSequence" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/LatticeSequence.java" binary="false" label="latticeSequence" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="28" y="0"/>    
+    <execution id="2">      
+      <position height="293" width="138" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="xal.sim.scenario.Scenario" project="open-test" 
+    file="/open-test/core/src/xal/sim/scenario/Scenario.java" binary="false" label="scenario" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="159" y="0"/>    
+    <execution id="6">      
+      <position height="775" width="83" x="147" y="458"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="xal.sim.sync.SynchronizationManager" project="open-test" 
+    file="/open-test/core/src/xal/sim/sync/SynchronizationManager.java" binary="false" label="&lt;static&gt;" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="193" y="0"/>    
+    <execution id="4">      
+      <position height="251" width="194" x="234" y="120"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="162"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="94" width="0" x="0" y="256"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="308"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="733" width="194" x="234" y="479"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="125" width="0" x="0" y="1066"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="1118"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="xal.sim.sync.Synchronizer" project="open-test" 
+    file="/open-test/core/src/xal/sim/sync/Synchronizer.java" binary="false" label="synchronizer" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="1149"/>    
+    </execution>  
+  </object>  
+  <object id="33" language="java" name="java.util.Map" project="open-test" 
+    file="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar" binary="true" 
+    label="synchronizedNodeElems" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="500"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="1003"/>    
+    </execution>  
+  </object>  
+  <object id="34" language="java" name="xal.smf.proxy.PrimaryPropertyAccessor" project="open-test" 
+    file="/open-test/core/src/xal/smf/proxy/PrimaryPropertyAccessor.java" binary="false" label="&lt;static&gt;" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="193"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="105" width="0" x="0" y="542"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="314" width="0" x="0" y="668"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="710"/>    
+    </execution>    
+    <execution id="48">      
+      <position height="21" width="0" x="0" y="888"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="21" width="0" x="0" y="940"/>    
+    </execution>  
+  </object>  
+  <object id="51" language="java" name="xal.smf.proxy.BatchPropertyAccessor" project="open-test" 
+    file="/open-test/core/src/xal/smf/proxy/PrimaryPropertyAccessor.java" binary="false" label="_batchAccessor" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="21" width="0" x="0" y="741"/>    
+    </execution>  
+  </object>  
+  <object id="52" language="java" name="java.util.Map" project="open-test" 
+    file="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar" binary="true" 
+    label="PROPERTY_VALUE_CACHE" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="44">      
+      <position height="21" width="0" x="0" y="783"/>    
+    </execution>  
+  </object>  
+  <object id="53" language="java" name="java.util.HashMap" project="open-test" 
+    file="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar" binary="true" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="46">      
+      <position height="21" width="0" x="0" y="825"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="xal.smf.proxy.BatchPropertyAccessor" project="open-test" 
+    file="/open-test/core/src/xal/smf/proxy/PrimaryPropertyAccessor.java" binary="false" label="&lt;static&gt;" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="36">      
+      <position height="21" width="0" x="0" y="563"/>    
+    </execution>  
+  </object>  
+  <object id="55" language="java" name="xal.smf.proxy.BatchPropertyAccessor" project="open-test" 
+    file="/open-test/core/src/xal/smf/proxy/PrimaryPropertyAccessor.java" binary="false" label="batchAccessor" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="38">      
+      <position height="21" width="0" x="0" y="605"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="synchronize(xal.model.IElement,xal.smf.AcceleratorNode):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="resync():void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="10" operation="hasSynchronizerFor(xal.model.IElement):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="hasAccessorFor(xal.smf.AcceleratorNode):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="addSynchronizedElementMappedTo(xal.model.IElement,xal.smf.AcceleratorNode):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="synchronizedElementsMappedTo(xal.smf.AcceleratorNode):java.util.List&lt;IElement&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="keySet():java.util.Set&lt;K&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" 
+    operation="requestValuesForNodes(java.util.Collection&lt;xal.smf.AcceleratorNode&gt;,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="valueMapFor(java.lang.Object):java.util.Map&lt;String,Double&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="get(java.lang.Object):V" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="resync(xal.model.IElement,java.util.Map&lt;java.lang.String,java.lang.Double&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="getSynchronizer(xal.model.IElement):xal.sim.sync.Synchronizer" asynchronous="false">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="resync(xal.model.IElement,java.util.Map&lt;java.lang.String,java.lang.Double&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="35" operation="getInstance(java.lang.String):xal.smf.proxy.BatchPropertyAccessor" asynchronous="false">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="requestValuesForNodes(java.util.Collection&lt;xal.smf.AcceleratorNode&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="getAccessorFor(xal.smf.AcceleratorNode):xal.smf.proxy.PropertyAccessor" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="valueMapFor(xal.smf.AcceleratorNode):java.util.Map&lt;String,Double&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="put(K,V):V" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="HashMap(java.util.Map&lt;? extends K,? extends V&gt;)" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" 
+    operation="addInputOverrides(xal.smf.AcceleratorNode,java.util.Map&lt;java.lang.String,java.lang.Double&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" 
+    operation="printValueMap(xal.smf.AcceleratorNode,java.util.Map&lt;java.lang.String,java.lang.Double&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>
+</sequence-diagram>
