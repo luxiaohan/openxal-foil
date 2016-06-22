@@ -357,7 +357,7 @@ public class TestVice{
         OWTR_OUTPUT.write("\nRing Computation: computeFractionalTunes");
         OWTR_OUTPUT.write("\n");
         R3  vecFracTunes = this.calXferRing.computeFractionalTunes();
-System.out.println(vecFracTunes.toString());        
+        
         OWTR_OUTPUT.write(" fraction tunes: " + vecFracTunes.toString());
         OWTR_OUTPUT.write("\n");
         

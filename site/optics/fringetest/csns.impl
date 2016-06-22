@@ -22,6 +22,8 @@
    <device type="LW" class="xal.smf.impl.Marker"/>
    <device type="QH" class="xal.smf.impl.Quadrupole"/>
    <device type="QV" class="xal.smf.impl.Quadrupole"/>
+   <device type="QFH" class="xal.smf.impl.Quadrupole"/>
+   <device type="QFV" class="xal.smf.impl.Quadrupole"/>
    <device type="QSC" class="xal.smf.impl.Quadrupole"/>
    <device type="Bnch" class="xal.smf.impl.ReBuncher"/>
    <device type="RF" class="xal.smf.impl.RfCavity"/>
