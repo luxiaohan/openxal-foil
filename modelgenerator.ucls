@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.1.9" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="xal.sim.scenario.ScenarioGenerator" project="open-test" 
     file="/open-test/core/src/xal/sim/scenario/ScenarioGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="495" y="326"/>    
+    <position height="-1" width="-1" x="185" y="259"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="xal.model.Lattice" project="open-test" 
     file="/open-test/core/src/xal/model/Lattice.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="315" y="190"/>    
+    <position height="-1" width="-1" x="-48" y="301"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="xal.model.elem.ElementSeq" project="open-test" 
     file="/open-test/core/src/xal/model/elem/ElementSeq.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="18" y="213"/>    
+    <position height="-1" width="-1" x="-52" y="434"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="xal.sim.scenario.LatticeSequence" project="open-test" 
     file="/open-test/core/src/xal/sim/scenario/LatticeSequence.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="200" y="326"/>    
+    <position height="-1" width="-1" x="184" y="387"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="xal.sim.scenario.LatticeElement" project="open-test" 
     file="/open-test/core/src/xal/sim/scenario/LatticeElement.java" binary="false" corner="BOTTOM_LEFT">    
-    <position height="-1" width="-1" x="179" y="519"/>    
+    <position height="-1" width="-1" x="178" y="507"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="xal.sim.scenario.ElementMapping" project="open-test" 
     file="/open-test/core/src/xal/sim/scenario/ElementMapping.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="406" y="464"/>    
+    <position height="-1" width="-1" x="430" y="478"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <interface id="7" language="java" name="xal.model.IElement" project="open-test" 
     file="/open-test/core/src/xal/model/IElement.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-176" y="600"/>    
+    <position height="-1" width="-1" x="-221" y="593"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -66,7 +66,7 @@
   </interface>  
   <interface id="8" language="java" name="xal.model.IComponent" project="open-test" 
     file="/open-test/core/src/xal/model/IComponent.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-170" y="462"/>    
+    <position height="-1" width="-1" x="-391" y="516"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -75,7 +75,7 @@
   </interface>  
   <interface id="9" language="java" name="xal.model.IComposite" project="open-test" 
     file="/open-test/core/src/xal/model/IComposite.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-233" y="226"/>    
+    <position height="-1" width="-1" x="-383" y="397"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -84,7 +84,7 @@
   </interface>  
   <class id="10" language="java" name="xal.smf.AcceleratorNode" project="open-test" 
     file="/open-test/core/src/xal/smf/AcceleratorNode.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="414" y="607"/>    
+    <position height="-1" width="-1" x="338" y="603"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -93,7 +93,7 @@
   </class>  
   <class id="11" language="java" name="xal.model.elem.Element" project="open-test" 
     file="/open-test/core/src/xal/model/elem/Element.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-14" y="608"/>    
+    <position height="-1" width="-1" x="-16" y="594"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -102,7 +102,7 @@
   </class>  
   <interface id="12" language="java" name="xal.model.IAlgorithm" project="open-test" 
     file="/open-test/core/src/xal/model/IAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-386" y="398"/>    
+    <position height="-1" width="-1" x="-339" y="661"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -111,292 +111,343 @@
   </interface>  
   <class id="13" language="java" name="xal.sim.scenario.Scenario" project="open-test" 
     file="/open-test/core/src/xal/sim/scenario/Scenario.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="732" y="329"/>    
+    <position height="-1" width="-1" x="-7" y="128"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <interface id="14" language="java" name="xal.tools.data.IArchive" project="open-test" 
-    file="/open-test/core/src/xal/tools/data/IArchive.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-351" y="304"/>    
+  <note id="14">    
+    <position height="72" width="200" x="-327" y="225"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[This is what we need, it takes all the elements of the onlinemodel
+generated from LatticeElement]]>
+    </text>  
+  </note>  
+  <class id="15" language="java" name="xal.sim.sync.SynchronizationManager" project="open-test" 
+    file="/open-test/core/src/xal/sim/sync/SynchronizationManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="415" y="181"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
-  </interface>  
-  <interface id="15" language="java" name="xal.tools.data.IContextAware" project="open-test" 
-    file="/open-test/core/src/xal/tools/data/IContextAware.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-515" y="301"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
-      <operations public="false" package="false" protected="false" private="false" static="true"/>    
-    </display>  
-  </interface>  
-  <association id="16">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="17" name="m_lstCompsBackward">        
-        <position height="19" width="130" x="-264" y="368"/>      
-      </attribute>      
-      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="19">    
-    <bendpoint x="80" y="433"/>    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="20" name="component"/>      
-      <multiplicity id="21" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="22">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="23" name="lstLatElems"/>      
-      <multiplicity id="24" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="25">    
+  </class>  
+  <note id="16">    
+    <position height="63" width="136" x="-198" y="661"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Element represents  members of OnlineModel]]>
+    </text>  
+  </note>  
+  <note id="17">    
+    <position height="74" width="217" x="83" y="680"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[LatticeSequence and  LatticeElement  are  the intermediary to generate onlinemodel elements with the information in ElementMapping]]>
+    </text>  
+  </note>  
+  <note id="18">    
+    <position height="72" width="183" x="413" y="254"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[SynchronizationManager stores the relationship between OnlineModel Element and AcceleratorNodes]]>
+    </text>  
+  </note>  
+  <realization id="19">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <text-link id="20">    
+    <link-end type="SOURCE" refId="14"/>    
+    <link-end type="TARGET" refId="2"/>  
+  </text-link>  
+  <dependency id="21">    
     <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <dependency id="26">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="12"/>  
+    <end type="TARGET" refId="10"/>  
   </dependency>  
-  <dependency id="27">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="13"/>  
-  </dependency>  
-  <dependency id="28">    
-    <end type="SOURCE" refId="11"/>    
+  <dependency id="22">    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
+  <association id="23">    
+    <end type="SOURCE" refId="13" navigable="false" variant="ASSOCIATION">      
+      <attribute id="24" name="lattice">        
+        <position height="0" width="0" x="-363" y="111"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-363" y="111"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="4" navigable="false" variant="ASSOCIATION">      
+      <attribute id="27" name="lstLatElems">        
+        <position height="0" width="0" x="-1" y="-12"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-1" y="-12"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <dependency id="29">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="8"/>  
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
   </dependency>  
   <dependency id="30">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="8"/>  
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
   </dependency>  
   <dependency id="31">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <text-link id="32">    
+    <link-end type="SOURCE" refId="16"/>    
+    <link-end type="TARGET" refId="11"/>  
+  </text-link>  
+  <dependency id="33">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <dependency id="32">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="9"/>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <text-link id="35">    
+    <link-end type="SOURCE" refId="17"/>    
+    <link-end type="TARGET" refId="5"/>  
+  </text-link>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
   </dependency>  
-  <association id="33">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="34" name="firstSlice">        
-        <position height="19" width="54" x="252" y="494"/>      
+  <association id="37">    
+    <end type="SOURCE" refId="1" navigable="false" variant="ASSOCIATION">      
+      <attribute id="38" name="mapNodeToModCls">        
+        <position height="19" width="118" x="386" y="388"/>      
       </attribute>      
-      <multiplicity id="35" minimum="0" maximum="1"/>    
+      <multiplicity id="39" minimum="0" maximum="1">        
+        <position height="0" width="0" x="24" y="14"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="36">    
+  <generalization id="40">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="42">    
     <end type="SOURCE" refId="13"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
-  <generalization id="37">    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <dependency id="38">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="10"/>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
   </dependency>  
-  <dependency id="39">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="10"/>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
   </dependency>  
-  <association id="40">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="41" name="nextSlice">        
-        <position height="19" width="58" x="264" y="513"/>      
+  <association id="45">    
+    <end type="SOURCE" refId="5" navigable="false" variant="ASSOCIATION">      
+      <attribute id="46" name="smfNode">        
+        <position height="0" width="0" x="-76" y="-4"/>      
       </attribute>      
-      <multiplicity id="42" minimum="0" maximum="1"/>    
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-76" y="-4"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="10" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="43">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="6"/>  
+  <association id="48">    
+    <end type="SOURCE" refId="11" navigable="false" variant="ASSOCIATION">      
+      <attribute id="49" name="cpsParent">        
+        <position height="0" width="0" x="-150" y="171"/>      
+      </attribute>      
+      <multiplicity id="50" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-150" y="171"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
   </dependency>  
-  <generalization id="44">    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="15"/>  
-  </generalization>  
-  <dependency id="45">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="46">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="10"/>  
-  </dependency>  
-  <dependency id="47">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="10"/>  
-  </dependency>  
-  <generalization id="48">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <dependency id="49">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="11"/>  
-  </dependency>  
-  <dependency id="50">    
+  <dependency id="52">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
-  <dependency id="51">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <association id="52">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="53" name="m_lstCompsForward"/>      
-      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+  <text-link id="53">    
+    <link-end type="SOURCE" refId="16"/>    
+    <link-end type="TARGET" refId="7"/>  
+  </text-link>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
   <dependency id="55">    
     <end type="SOURCE" refId="12"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
   <association id="56">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="57" name="cpsParent"/>      
-      <multiplicity id="58" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="59">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <association id="60">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="61" name="closeElements"/>      
-      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="63">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="9"/>  
-  </dependency>  
-  <dependency id="64">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <association id="65">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="66" name="mapNodeToMdl">        
-        <position height="19" width="96" x="237" y="387"/>      
+    <end type="SOURCE" refId="4" navigable="false" variant="ASSOCIATION">      
+      <attribute id="57" name="lstSubSeqs">        
+        <position height="19" width="70" x="271" y="367"/>      
       </attribute>      
-      <multiplicity id="67" minimum="0" maximum="1"/>    
+      <multiplicity id="58" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-16" y="61"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="68">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="9"/>  
-  </realization>  
-  <dependency id="69">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="9"/>  
-  </dependency>  
-  <association id="70">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="71" name="smfNode"/>      
-      <multiplicity id="72" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="73">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="74" name="mapNodeToModCls">        
-        <position height="19" width="118" x="362" y="374"/>      
+  <association id="59">    
+    <end type="SOURCE" refId="3" navigable="false" variant="ASSOCIATION">      
+      <attribute id="60" name="m_lstCompsBackward">        
+        <position height="19" width="130" x="-485" y="422"/>      
       </attribute>      
-      <multiplicity id="75" minimum="0" maximum="1"/>    
+      <multiplicity id="61" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-221" y="54"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="8" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="76">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <dependency id="77">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="12"/>  
-  </dependency>  
-  <dependency id="78">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <generalization id="79">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <dependency id="80">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <dependency id="81">    
-    <end type="SOURCE" refId="4"/>    
+  <dependency id="62">    
+    <end type="SOURCE" refId="11"/>    
     <end type="TARGET" refId="10"/>  
   </dependency>  
-  <association id="82">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="83" name="lstSubSeqs">        
-        <position height="19" width="70" x="287" y="306"/>      
-      </attribute>      
-      <multiplicity id="84" minimum="0" maximum="2147483647"/>    
+  <dependency id="63">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="64">    
+    <end type="SOURCE" refId="13" navigable="false" variant="ASSOCIATION">      
+      <attribute id="65" name="mgrSync"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="15" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="85">    
+  <dependency id="67">    
     <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="7"/>  
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="68">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <realization id="70">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
   </realization>  
-  <association id="86">    
-    <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="87" name="lattice"/>      
-      <multiplicity id="88" minimum="0" maximum="1"/>    
+  <dependency id="71">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="72">    
+    <end type="SOURCE" refId="4" navigable="false" variant="ASSOCIATION">      
+      <attribute id="73" name="mapNodeToMdl">        
+        <position height="19" width="96" x="261" y="401"/>      
+      </attribute>      
+      <multiplicity id="74" minimum="0" maximum="1">        
+        <position height="0" width="0" x="24" y="14"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="89">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="90" name="cpsParent"/>      
-      <multiplicity id="91" minimum="0" maximum="1"/>    
+  <association id="75">    
+    <end type="SOURCE" refId="5" navigable="false" variant="ASSOCIATION">      
+      <attribute id="76" name="firstSlice">        
+        <position height="19" width="54" x="251" y="482"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1" y="-12"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
+    <end type="TARGET" refId="5" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <text-link id="78">    
+    <link-end type="SOURCE" refId="18"/>    
+    <link-end type="TARGET" refId="15"/>  
+  </text-link>  
+  <association id="79">    
+    <end type="SOURCE" refId="3" navigable="false" variant="ASSOCIATION">      
+      <attribute id="80" name="cpsParent">        
+        <position height="0" width="0" x="-150" y="171"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-150" y="171"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="82">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="84">    
+    <end type="SOURCE" refId="5" navigable="false" variant="ASSOCIATION">      
+      <attribute id="85" name="component">        
+        <position height="0" width="0" x="-221" y="54"/>      
+      </attribute>      
+      <multiplicity id="86" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-221" y="54"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="5" navigable="false" variant="ASSOCIATION">      
+      <attribute id="88" name="nextSlice">        
+        <position height="19" width="58" x="263" y="501"/>      
+      </attribute>      
+      <multiplicity id="89" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1" y="-12"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="11" navigable="false" variant="ASSOCIATION">      
+      <attribute id="91" name="closeElements">        
+        <position height="0" width="0" x="-2" y="-14"/>      
+      </attribute>      
+      <multiplicity id="92" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-2" y="-14"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    

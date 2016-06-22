@@ -429,49 +429,58 @@
     </execution>  
   </object>  
   <note id="236">    
-    <position height="48" width="200" x="928" y="2018"/>    
-    <text><![CDATA[Create new AcceleratorSeq Instance here]]>
+    <position height="48" width="200" x="768" y="2019"/>    
+    <text><![CDATA[Create new AcceleratorSeq Instance here
+    ]]>
     </text>  
   </note>  
   <note id="237">    
-    <position height="26" width="200" x="922" y="2179"/>    
-    <text><![CDATA[Then add to Accelerator]]>
+    <position height="26" width="200" x="764" y="2179"/>    
+    <text><![CDATA[Then add to Accelerator
+    ]]>
     </text>  
   </note>  
   <note id="238">    
-    <position height="30" width="273" x="850" y="2127"/>    
-    <text><![CDATA[Then recall {upate} to propagate Nodes]]>
+    <position height="30" width="273" x="699" y="2127"/>    
+    <text><![CDATA[Then recall {upate} to propagate Nodes
+    ]]>
     </text>  
   </note>  
   <note id="239">    
-    <position height="43" width="200" x="929" y="3077"/>    
-    <text><![CDATA[Create new AcceleratorNode Instance here]]>
+    <position height="43" width="200" x="769" y="3079"/>    
+    <text><![CDATA[Create new AcceleratorNode Instance here
+    ]]>
     </text>  
   </note>  
   <note id="240">    
-    <position height="57" width="200" x="924" y="3150"/>    
-    <text><![CDATA[Then call update of AcceleratorNode to parse attr values]]>
+    <position height="57" width="200" x="777" y="3150"/>    
+    <text><![CDATA[Then call update of AcceleratorNode to parse attr values
+    ]]>
     </text>  
   </note>  
   <note id="241">    
-    <position height="45" width="200" x="923" y="3213"/>    
-    <text><![CDATA[Then add to current sequence]]>
+    <position height="45" width="200" x="777" y="3215"/>    
+    <text><![CDATA[Then add to current sequence
+    ]]>
     </text>  
   </note>  
   <note id="242">    
-    <position height="43" width="200" x="1590" y="4109"/>    
-    <text><![CDATA[Add the associated Channels information]]>
+    <position height="43" width="200" x="1360" y="4115"/>    
+    <text><![CDATA[Add the associated Channels information
+    ]]>
     </text>  
   </note>  
   <note id="243">    
-    <position height="127" width="200" x="1949" y="4400"/>    
+    <position height="127" width="200" x="1672" y="4404"/>    
     <text><![CDATA[If the AttributeBucket wasn't created when instance an AcceleratorNode,then create here.
-Usually, the ArrtibuteBucket will be created with AcceleratorNode]]>
+Usually, the ArrtibuteBucket will be created with AcceleratorNode
+    ]]>
     </text>  
   </note>  
   <note id="244">    
-    <position height="41" width="200" x="2489" y="4653"/>    
-    <text><![CDATA[load attribues values here from DataAdaptor]]>
+    <position height="41" width="200" x="2137" y="4657"/>    
+    <text><![CDATA[load attribues values here from DataAdaptor
+    ]]>
     </text>  
   </note>  
   <message id="3" operation="acceleratorWithPath(java.lang.String):xal.smf.Accelerator" asynchronous="false">    
@@ -500,7 +509,7 @@ Usually, the ArrtibuteBucket will be created with AcceleratorNode]]>
     <end type="SOURCE" refId="12"/>    
     <end type="TARGET" refId="14"/>  
   </message>  
-  <message id="16" operation="absoluteUrlSpec(java.lang.String):java.lang.String" asynchronous="false">    
+  <message id="16" asynchronous="false">    
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="17"/>  
   </message>  
@@ -545,7 +554,7 @@ Usually, the ArrtibuteBucket will be created with AcceleratorNode]]>
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="37"/>  
   </message>  
-  <message id="38" operation="getTimingCenter():xal.smf.TimingCenter" asynchronous="false">    
+  <message id="38" asynchronous="false">    
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="39"/>  
   </message>  

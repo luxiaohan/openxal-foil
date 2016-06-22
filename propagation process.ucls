@@ -21,7 +21,7 @@
   </class>  
   <interface id="3" language="java" name="xal.model.IComponent" project="open-test" 
     file="/open-test/core/src/xal/model/IComponent.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="295" y="339"/>    
+    <position height="-1" width="-1" x="281" y="342"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
@@ -30,7 +30,7 @@
   </interface>  
   <interface id="4" language="java" name="xal.model.IAlgorithm" project="open-test" 
     file="/open-test/core/src/xal/model/IAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="591" y="555"/>    
+    <position height="-1" width="-1" x="572" y="438"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
@@ -39,7 +39,7 @@
   </interface>  
   <interface id="5" language="java" name="xal.model.IElement" project="open-test" 
     file="/open-test/core/src/xal/model/IElement.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="55" width="114" x="351" y="456"/>    
+    <position height="-1" width="-1" x="364" y="453"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
@@ -48,81 +48,221 @@
   </interface>  
   <class id="6" language="java" name="xal.model.elem.Element" project="open-test" 
     file="/open-test/core/src/xal/model/elem/Element.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="560" y="341"/>    
+    <position height="-1" width="-1" x="541" y="316"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <dependency id="7">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
+  <interface id="7" language="java" name="xal.model.IProbe" project="open-test" 
+    file="/open-test/core/src/xal/model/IProbe.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="708" y="240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="xal.model.alg.Tracker" project="open-test" 
+    file="/open-test/core/src/xal/model/alg/Tracker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="716" y="496"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="xal.model.probe.traj.IProbeState" project="open-test" 
+    file="/open-test/core/src/xal/model/probe/traj/IProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="856" y="238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="xal.model.probe.traj.ProbeState" project="open-test" 
+    file="/open-test/core/src/xal/model/probe/traj/ProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="876" y="322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="xal.model.probe.traj.Trajectory" project="open-test" 
+    file="/open-test/core/src/xal/model/probe/traj/Trajectory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="970" y="509"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <note id="12">    
+    <position height="57" width="200" x="23" y="178"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Lattice is the access to propagate and update the state of all the involved Elements]]>
+    </text>  
+  </note>  
+  <note id="13">    
+    <position height="48" width="212" x="427" y="518"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Algorithm(Tracker) dertermine how to propagate and update the states]]>
+    </text>  
+  </note>  
+  <note id="14">    
+    <position height="59" width="200" x="735" y="100"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Probe is the platform to give the initial data and receive the processed data]]>
+    </text>  
+  </note>  
+  <note id="15">    
+    <position height="61" width="165" x="966" y="243"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Each ProbeState take one Element's state information 
+e.g. TransferMatrix]]>
+    </text>  
+  </note>  
+  <note id="16">    
+    <position height="53" width="155" x="978" y="399"/>    
+    <background red="0" green="255" blue="0"/>    
+    <text><![CDATA[Trajectory holds all the state information of the Elements]]>
+    </text>  
+  </note>  
+  <text-link id="17">    
+    <link-end type="SOURCE" refId="12"/>    
+    <link-end type="TARGET" refId="1"/>  
+  </text-link>  
+  <text-link id="18">    
+    <link-end type="SOURCE" refId="13"/>    
+    <link-end type="TARGET" refId="8"/>  
+  </text-link>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
   </dependency>  
-  <association id="8">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="9" name="closeElements">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="10" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="6"/>  
-  </dependency>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <realization id="13">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <dependency id="14">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="15">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <association id="16">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="17" name="m_lstCompsBackward">        
-        <position height="0" width="0" x="-45" y="15"/>      
-      </attribute>      
-      <multiplicity id="18" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-45" y="15"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="19">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
   <dependency id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="21">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
-  <association id="21">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="22" name="m_lstCompsForward">        
-        <position height="0" width="0" x="-45" y="15"/>      
+  <text-link id="22">    
+    <link-end type="SOURCE" refId="16"/>    
+    <link-end type="TARGET" refId="11"/>  
+  </text-link>  
+  <realization id="23">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="25">    
+    <end type="SOURCE" refId="2" navigable="false" variant="ASSOCIATION">      
+      <attribute id="26" name="m_lstCompsForward">        
+        <position height="0" width="0" x="-59" y="18"/>      
       </attribute>      
-      <multiplicity id="23" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-45" y="15"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-59" y="18"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true" variant="ASSOCIATION"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <text-link id="31">    
+    <link-end type="SOURCE" refId="14"/>    
+    <link-end type="TARGET" refId="7"/>  
+  </text-link>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="36">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="37">    
+    <end type="SOURCE" refId="6" navigable="false" variant="ASSOCIATION">      
+      <attribute id="38" name="closeElements">        
+        <position height="0" width="0" x="-19" y="-25"/>      
+      </attribute>      
+      <multiplicity id="39" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-19" y="-25"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <text-link id="40">    
+    <link-end type="SOURCE" refId="13"/>    
+    <link-end type="TARGET" refId="4"/>  
+  </text-link>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <text-link id="44">    
+    <link-end type="SOURCE" refId="15"/>    
+    <link-end type="TARGET" refId="10"/>  
+  </text-link>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="46">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <text-link id="49">    
+    <link-end type="SOURCE" refId="15"/>    
+    <link-end type="TARGET" refId="9"/>  
+  </text-link>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="false"/>    

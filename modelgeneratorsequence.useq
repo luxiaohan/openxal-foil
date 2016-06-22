@@ -117,8 +117,9 @@
     </execution>  
   </object>  
   <note id="56">    
-    <position height="61" width="200" x="284" y="766"/>    
-    <text><![CDATA[The propagation to split and generate model elements is proceeded here]]>
+    <position height="61" width="200" x="230" y="767"/>    
+    <text><![CDATA[The propagation to split and generate model elements is proceeded here
+    ]]>
     </text>  
   </note>  
   <message id="3" operation="generateScenario(xal.smf.AcceleratorSeq):xal.sim.scenario.Scenario" asynchronous="false">    
