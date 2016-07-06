@@ -7,7 +7,7 @@
   <sequence id="RCS_R1">
     <node type="QFH" id="RCS_Mag:R1QF04">
        <attributes>
-          <magnet frFldIntK0="0.01" />
+          <magnet frFldIntK0="0.0" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R1QF09">

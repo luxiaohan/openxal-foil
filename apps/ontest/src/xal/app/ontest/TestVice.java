@@ -89,12 +89,12 @@ public class TestVice{
     /** Calculation engine for ring parameters using transfer map states */
    private CalculationsOnRings          calXferRing;
     /**the accelerator path 1*/
-   final private String PATH1 = "/Users/xl7/formigration/openxal/site/optics/csns.design/main_csns.xal";
+   final private String PATH1 = "/home/luxiaohan/workspace/openxal-dev/site/optics/csns.design/main_csns.xal";
     
    /**the accelerator path 1*/
-   final private String PATH2 = "/Users/xl7/formigration/openxal/site/optics/design/main.xal";
+   final private String PATH2 = "/home/luxiaohan/workspace/openxal-dev/site/optics/design/main.xal";
    /**the accelerator path 1*/
-   final private String PATH3 = "/Users/xl7/formigration/openxal/site/optics/fringetest/main_csns.xal";
+   final private String PATH3 = "/home/luxiaohan/workspace/openxal-dev/site/optics/fringetest/main_csns.xal";
    
     /*
      * Global Methods
@@ -115,7 +115,7 @@ public class TestVice{
         try {
             
  //           File fileOutput = ResourceManager.getOutputFile(TestVice.class, STR_OUTPUT);
-            File fileOutput = new File("/Users/xl7/formigration/openxal/build","clcOnRings.txt");
+            File fileOutput = new File("/home/luxiaohan/workspace/openxal-dev/build","clcOnRings.txt");
             OWTR_OUTPUT = new FileWriter(fileOutput);
             
 //            ACCEL_TEST   = ResourceManager.getTestAccelerator();
