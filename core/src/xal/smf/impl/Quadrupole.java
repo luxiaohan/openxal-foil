@@ -125,6 +125,11 @@ public class Quadrupole extends Electromagnet {
     public double getFringeFieldIntegralK0() {
     	return m_bucMagnet.getFringeFieldIntegralK0();
     }
+    
+    /**get fringe field integral2*/
+    public double getFringeFieldIntegralK1() {
+    	return m_bucMagnet.getFringeFieldIntegralK1();
+    }
         
     
     /** 

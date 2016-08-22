@@ -211,18 +211,25 @@ public class IdealMagFringeQuadFace extends ThinElectromagnet {
         double q = probe.getSpeciesCharge();
         
         //normalized fringeIntergral with B0 = 1
-        double f0 = this.getFringeIntegral1();
+        double f1 = this.getFringeIntegral1();
+        double f2 = this.getFringeIntegral2();
+        double f2e = Math.exp(f2);
         
         //scaled fringeIntergral 
-        double fs = f0*getMagField();
+ //       double fs = f1;
         
         //focus length 1/(L*sqrt(k))
-        double focus = (q*fs*LightSpeed)/p;
+//        double focus = (q*fs*LightSpeed)/p;
         
         PhaseMatrix matPhi = PhaseMatrix.identity();
         
-        matPhi.setElem( 1, 0, -focus);//X plane
-        matPhi.setElem(3, 2, focus);// Y plane
+        matPhi.setElem(0, 0, f2e);
+        matPhi.setElem(1, 1, 1/f2e);
+        matPhi.setElem( 1, 0, f1);//X plane
+        
+        matPhi.setElem(2, 2, 1/f2e);
+        matPhi.setElem(3, 3, f2e);
+        matPhi.setElem(3, 2, f1);// Y plane
         
 
  	   	PhaseMatrix Phidx = applyAlignError(matPhi);	

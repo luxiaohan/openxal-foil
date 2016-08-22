@@ -465,12 +465,15 @@ public class IdealMagFringeQuad extends ElectromagnetSeq {
 		setPosition(element.getCenterPosition(), element.getLength());
 			
 		double len_sect = element.getLength();
-		double frng_intg = magnet.getFringeFieldIntegralK0();
+		double frng_intg1 = magnet.getFringeFieldIntegralK0();
+		double frng_intg2 = magnet.getFringeFieldIntegralK1();
 		
         if (element.isFirstSlice()) // first piece
-            setEntrFringeIntegral1( frng_intg );
+            setEntrFringeIntegral1( frng_intg1 );
+            setEntrFringeIntegral2(frng_intg2);
         if (element.isLastSlice()) // last piece
-            setExitFringeIntegral1( frng_intg );
+            setExitFringeIntegral1( frng_intg1);
+            setExitFringeIntegral2(-frng_intg2);
 
 		// Set the parameters for the new model element				
 		setPhysicalLength(len_sect);

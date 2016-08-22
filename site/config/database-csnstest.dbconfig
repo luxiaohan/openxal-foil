@@ -12,7 +12,7 @@
 
 	<accounts default="reports">
 		<account name="reports" user="root" password="101317" />
-		<account name="monitor" user="monitor" />
+		<account name="monitor" user="root" />
 		<account name="pvlogger" user="root" password="101317" />
 		<account name="pvlogger-reports" user="root" password="101317" />
 		<account name="elog" user="monitor" />

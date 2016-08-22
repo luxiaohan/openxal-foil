@@ -40,7 +40,8 @@ public class MagnetBucket extends AttributeBucket {
             "dipoleEntrRotAngle",   // dipole rotation angle for entrance pole face
             "dipoleExitRotAngle",   // dipole rotation angle for exit pole face
             "dipoleQuadComponent",   // quadrupole component for bend dipole
-            "frFldIntK0"           // zero-order fringe field integral
+            "frFldIntK0",           // zero-order fringe field integral
+            "frFldIntK1"            //TODO other parameter 
     };
     
 
@@ -66,6 +67,7 @@ public class MagnetBucket extends AttributeBucket {
         this.attDipoleExitRotAngle = new Attribute(0.0 );
         this.attDipoleQuadComponent = new Attribute(0.0 );
         this.attFrFldIntK0 = new Attribute(0.0);
+        this.attFrFldIntK1 = new Attribute(0.0);
 
 
         super.registerAttribute(c_arrNames[0], attLenEff);
@@ -79,6 +81,7 @@ public class MagnetBucket extends AttributeBucket {
         super.registerAttribute(c_arrNames[8], attDipoleExitRotAngle);
         super.registerAttribute(c_arrNames[9], attDipoleQuadComponent);
         super.registerAttribute(c_arrNames[10], attFrFldIntK0);
+        super.registerAttribute(c_arrNames[11], attFrFldIntK1);
     }
 
      
@@ -130,6 +133,10 @@ public class MagnetBucket extends AttributeBucket {
     	return attFrFldIntK0.getDouble();
     }
     
+    public double  getFringeFieldIntegralK1() {
+    	return attFrFldIntK1.getDouble();
+    }
+    
     /** set the magnetic length (in m) 
      * @param dblVal magnetic length in meters
      */
@@ -173,6 +180,10 @@ public class MagnetBucket extends AttributeBucket {
     	attFrFldIntK0.set( dblVal );
     }
     
+    public void setFringeFieldIntegralK1( double dblVal ) {
+    	attFrFldIntK1.set( dblVal );
+    }
+    
     /*
      *  Local Attributes
      */
@@ -209,4 +220,7 @@ public class MagnetBucket extends AttributeBucket {
     
     /** zero-order fringe field integral*/
     private Attribute      attFrFldIntK0;
+    
+    /**other parameter*/
+    private Attribute      attFrFldIntK1;
 }

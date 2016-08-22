@@ -234,7 +234,8 @@ public class ScoreDataModel {
      */
     public void saveSnapshot(ScoreSnapshot ss) {
 		if(_scoreStore.publish(ss))
-			theDoc.postElogSaveEntry((new java.util.Date()).toString());
+//			theDoc.postElogSaveEntry((new java.util.Date()).toString());
+System.out.println("publish success");			
     }
 	
 }
