@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 
-<!-- Optics Extra File for Testing the Quadrupole Fringe Field Mechanism -->
+<!-- Optics Extra File for Testing the Quadrupole Fringe Field Mechanism Q272-->
 
 <xdxf date="06.22.2016" system="csns" ver="2.0.0">
 
@@ -12,7 +12,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R1QD02">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R1QF03">
@@ -27,7 +27,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R1QD05">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R1QF06">
@@ -42,7 +42,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R1QD08">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R1QF09">
@@ -57,7 +57,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R1QD11">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R1QF12">
@@ -75,7 +75,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R2QD11">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R2QF10">
@@ -90,7 +90,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R2QD08">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R2QF07">
@@ -105,7 +105,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R2QD05">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R2QF04">
@@ -120,7 +120,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R2QD02">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R2QF01">
@@ -138,7 +138,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R3QD02">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R3QF03">
@@ -153,7 +153,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R3QD05">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R3QF06">
@@ -168,7 +168,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R3QD08">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R3QF09">
@@ -183,7 +183,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R3QD11">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R3QF12">
@@ -201,7 +201,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R4QD11">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R4QF10">
@@ -216,7 +216,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R4QD08">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R4QF07">
@@ -231,7 +231,7 @@
     </node>
     <node type="QFV" id="RCS_Mag:R4QD05">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
         <node type="QFH" id="RCS_Mag:R4QF04">
@@ -246,7 +246,7 @@
     </node>
         <node type="QFV" id="RCS_Mag:R4QD02">
        <attributes>
-          <magnet frFldIntK0="0.0015" frFldIntK1="0.0024" />
+          <magnet frFldIntK0="-0.000341201" frFldIntK1="0.00508162" />
        </attributes>
     </node>
     <node type="QFH" id="RCS_Mag:R4QF01">

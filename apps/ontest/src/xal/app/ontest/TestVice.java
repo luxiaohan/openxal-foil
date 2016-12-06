@@ -36,6 +36,7 @@ import xal.tools.beam.PhaseMatrix.IND;
 import xal.tools.beam.PhaseVector;
 import xal.tools.beam.Twiss;
 import xal.tools.beam.Twiss3D;
+import xal.tools.beam.Twiss3D.IND_3D;
 import xal.tools.beam.calc.CalculationsOnRings;
 import xal.tools.math.r3.R3;
 
@@ -115,7 +116,7 @@ public class TestVice{
         try {
             
  //           File fileOutput = ResourceManager.getOutputFile(TestVice.class, STR_OUTPUT);
-            File fileOutput = new File("/home/luxiaohan/workspace/openxal-dev/build","clcOnRings.txt");
+            File fileOutput = new File("/home/luxiaohan/workspace/MATLABATROOT/openxal/","clcOnRing.txt");
             OWTR_OUTPUT = new FileWriter(fileOutput);
             
 //            ACCEL_TEST   = ResourceManager.getTestAccelerator();
@@ -276,6 +277,31 @@ public class TestVice{
         OWTR_OUTPUT.flush();
 
     }
+    
+    //add by xiaohan for test
+    public void computeTwissParameters( final FileWriter writer ) throws IOException {
+
+        // Do computations on the transfer map trajectory
+        //OWTR_OUTPUT.write("\nCalculationsOnRings: computeTwissParameters() and computeMatchedTwissAt()");
+        //OWTR_OUTPUT.write("\n");
+        Trajectory<TransferMapState> trjXfer = PROBE_XFER_TEST.getTrajectory();
+        for (TransferMapState state : trjXfer) {
+            Twiss[] arrTwissMt = this.calXferRing.computeMatchedTwissAt(state);
+            Twiss[] arrTwissAt = this.calXferRing.computeTwissParameters(state);
+            Twiss3D t3dMach  = new Twiss3D(arrTwissMt);
+            Twiss3D t3dAt    = new Twiss3D(arrTwissAt);
+
+            writer.write(state.getPosition() + "    ");
+            //OWTR_OUTPUT.write("  Generic = " + t3dAt.toString() + "\n");
+            //OWTR_OUTPUT.write("  Matched = " + t3dMach.toString());
+            writer.write(String.valueOf(t3dMach.getTwiss(IND_3D.X).getBeta())+"    ");
+            writer.write(String.valueOf(t3dMach.getTwiss(IND_3D.Y).getBeta())+"    ");
+            writer.write("\n");
+        }
+        writer.write("\n");
+        writer.flush();
+
+    }
 
     /**
      * Test method for {@link xal.tools.beam.calc.SimResultsAdaptor#computeBetatronPhase(xal.model.probe.traj.ProbeState)}.
@@ -376,6 +402,17 @@ public class TestVice{
 //        
         OWTR_OUTPUT.write("\n");
         OWTR_OUTPUT.flush();
+    }
+    
+    public void computeRingTunes( final FileWriter writer ) throws IOException {
+
+        // Compute the ring tunes
+        R3  vecFracTunes = this.calXferRing.computeFractionalTunes();
+        R3  vecFullTunes = this.calXferRing.computeFullTunes();
+        String tune=" "+vecFullTunes.get1()+"    "+vecFullTunes.get2();
+        writer.write(tune);
+        writer.flush();
+        System.out.println(tune);
     }
     
     /**
