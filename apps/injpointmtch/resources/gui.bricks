@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BricksDocument date="Tue Mar 07 16:50:26 CST 2017" version="1.0.0">
+<BricksDocument date="Sun Mar 26 04:33:54 CST 2017" version="1.0.0">
     <RootBrick>
-        <ViewNode customBeanClass="xal.extension.application.smf.DefaultAcceleratorWindow" height="901" tag="MainWindow" width="1442">
+        <ViewNode customBeanClass="xal.extension.application.smf.DefaultAcceleratorWindow" height="901" tag="MainWindow" width="1383">
             <ViewProxy type="javax.swing.JFrame"/>
             <BeanProperty name="title" value="Injection Point Match"/>
             <ViewNode tag="MainView">
@@ -39,32 +39,32 @@
                             <BorderProxy type="javax.swing.border.TitledBorder"/>
                             <BeanProperty name="title" value="Plane"/>
                         </BorderNode>
-                        <ViewNode tag="x Plane">
+                        <ViewNode tag="X Selection Checkbox">
                             <ViewProxy type="javax.swing.JCheckBox"/>
+                            <BeanProperty name="actionCommand" value="xplane"/>
+                            <BeanProperty height="26" name="minimumSize" width="110"/>
                             <BeanProperty height="26" name="preferredSize" width="110"/>
                             <BeanProperty height="26" name="maximumSize" width="110"/>
-                            <BeanProperty name="actionCommand" value="xplane"/>
                             <BeanProperty name="label" value="BPM"/>
                             <BeanProperty name="text" value="X"/>
-                            <BeanProperty height="26" name="minimumSize" width="110"/>
                         </ViewNode>
-                        <ViewNode tag="y Plane">
+                        <ViewNode tag="Y Selection Checkbox">
                             <ViewProxy type="javax.swing.JCheckBox"/>
+                            <BeanProperty name="actionCommand" value="yplane"/>
+                            <BeanProperty height="26" name="minimumSize" width="110"/>
                             <BeanProperty height="26" name="preferredSize" width="110"/>
                             <BeanProperty height="26" name="maximumSize" width="110"/>
-                            <BeanProperty name="actionCommand" value="yplane"/>
                             <BeanProperty name="label" value="BPM"/>
                             <BeanProperty name="text" value="Y"/>
-                            <BeanProperty height="26" name="minimumSize" width="110"/>
                         </ViewNode>
                     </ViewNode>
                     <ViewNode tag="Horizontal Glue">
                         <ViewProxy type="javax.swing.Box_HorizontalGlue"/>
                     </ViewNode>
                     <ViewNode tag="Matlab Button">
-                        <ViewProxy type="javax.swing.JToggleButton"/>
+                        <ViewProxy type="javax.swing.JButton"/>
                         <BeanProperty name="text" value="Matlab Connected"/>
-                        <BeanProperty alpha="255" blue="51" green="255" name="foreground" red="51"/>
+                        <BeanProperty alpha="255" blue="51" green="255" name="foreground" red="0"/>
                     </ViewNode>
                 </ViewNode>
                 <ViewNode tag="Table Box">
@@ -302,26 +302,52 @@
                                 <ViewNode tag="Calculation View">
                                     <ViewProxy type="javax.swing.Box_Vertical"/>
                                     <BeanProperty name="name" value="Calculation Table "/>
+                                    <ViewNode tag="BPM Data">
+                                        <ViewProxy type="javax.swing.Box_Horizontal"/>
+                                        <ViewNode tag="Get BPM Data">
+                                            <ViewProxy type="javax.swing.JButton"/>
+                                            <BeanProperty height="35" name="preferredSize" width="111"/>
+                                            <BeanProperty height="35" name="maximumSize" width="111"/>
+                                            <BeanProperty name="text" value="Get BPM Data"/>
+                                        </ViewNode>
+                                        <ViewNode tag="Label">
+                                            <ViewProxy type="javax.swing.JLabel"/>
+                                            <BeanProperty name="text" value="    Bunch Number :    "/>
+                                        </ViewNode>
+                                        <ViewNode tag="Bunch Number">
+                                            <ViewProxy type="javax.swing.JTextField"/>
+                                            <BeanProperty height="60" name="preferredSize" width="48"/>
+                                            <BeanProperty height="80" name="maximumSize" width="80"/>
+                                            <BeanProperty height="22" name="minimumSize" width="4"/>
+                                        </ViewNode>
+                                        <ViewNode tag="Label">
+                                            <ViewProxy type="javax.swing.JLabel"/>
+                                            <BeanProperty name="name" value="Label"/>
+                                            <BeanProperty name="text" value="                     Turns :   "/>
+                                        </ViewNode>
+                                        <ViewNode tag="Turns">
+                                            <ViewProxy type="javax.swing.JTextField"/>
+                                            <BeanProperty height="22" name="preferredSize" width="48"/>
+                                            <BeanProperty height="80" name="maximumSize" width="80"/>
+                                            <BeanProperty bottom="0" left="0" name="margin" right="0" top="0"/>
+                                        </ViewNode>
+                                    </ViewNode>
                                     <ViewNode tag="Matrix Box">
                                         <ViewProxy type="javax.swing.Box_Horizontal"/>
                                         <BeanProperty height="150" name="maximumSize" width="2147483647"/>
-                                        <ViewNode tag="Button">
+                                        <ViewNode tag="Get Matrix">
                                             <ViewProxy type="javax.swing.JButton"/>
-                                            <BeanProperty height="25" name="preferredSize" width="128"/>
-                                            <BeanProperty height="30" name="maximumSize" width="128"/>
+                                            <BeanProperty height="35" name="preferredSize" width="100"/>
+                                            <BeanProperty height="35" name="maximumSize" width="100"/>
                                             <BeanProperty name="text" value="Get Matrix"/>
-                                            <BeanProperty height="25" name="minimumSize" width="128"/>
-                                        </ViewNode>
-                                        <ViewNode tag="Split Panel">
-                                            <ViewProxy type="javax.swing.JPanel"/>
-                                            <BeanProperty height="10" name="preferredSize" width="40"/>
-                                            <BeanProperty height="10" name="minimumSize" width="20"/>
+                                            <BeanProperty height="25" name="minimumSize" width="50"/>
                                         </ViewNode>
                                         <ViewNode tag="X Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
-                                            <BeanProperty height="15" name="preferredSize" width="24"/>
-                                            <BeanProperty height="15" name="maximumSize" width="24"/>
-                                            <BeanProperty name="text" value="X :"/>
+                                            <BeanProperty height="15" name="preferredSize" width="60"/>
+                                            <BeanProperty height="15" name="maximumSize" width="100"/>
+                                            <BeanProperty name="text" value="    X :"/>
+                                            <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
@@ -336,10 +362,10 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="X A11">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="X A21">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
                                         </ViewNode>
@@ -356,29 +382,30 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="X A12">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="X A22">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
                                         </ViewNode>
-                                        <ViewNode tag="Label">
+                                        <ViewNode tag="Tune Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
                                             <BeanProperty name="text" value="tune : "/>
                                         </ViewNode>
-                                        <ViewNode tag="Text Field">
+                                        <ViewNode tag="X Tune">
                                             <ViewProxy type="javax.swing.JTextField"/>
-                                        </ViewNode>
-                                        <ViewNode tag="Panel">
-                                            <ViewProxy type="javax.swing.JPanel"/>
-                                            <BeanProperty height="10" name="preferredSize" width="40"/>
+                                            <BeanProperty height="22" name="preferredSize" width="40"/>
+                                            <BeanProperty height="2147483647" name="maximumSize" width="2147483647"/>
                                         </ViewNode>
                                         <ViewNode tag="Y Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
-                                            <BeanProperty height="15" name="preferredSize" width="24"/>
-                                            <BeanProperty height="15" name="maximumSize" width="24"/>
-                                            <BeanProperty name="text" value="Y :"/>
+                                            <BeanProperty name="requestFocusEnabled" value="true"/>
+                                            <BeanProperty height="18" name="minimumSize" width="61"/>
+                                            <BeanProperty height="15" name="preferredSize" width="100"/>
+                                            <BeanProperty height="15" name="maximumSize" width="100"/>
+                                            <BeanProperty name="text" value="            Y :"/>
+                                            <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
@@ -393,10 +420,10 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="Y A11">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="Y A21">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
                                         </ViewNode>
@@ -413,10 +440,10 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="Y A12">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
+                                            <ViewNode tag="Y A22">
                                                 <ViewProxy type="javax.swing.JTextField"/>
                                             </ViewNode>
                                         </ViewNode>
@@ -424,28 +451,25 @@
                                             <ViewProxy type="javax.swing.JLabel"/>
                                             <BeanProperty name="text" value="tune : "/>
                                         </ViewNode>
-                                        <ViewNode tag="Text Field">
+                                        <ViewNode tag="Y Tune">
                                             <ViewProxy type="javax.swing.JTextField"/>
                                         </ViewNode>
                                     </ViewNode>
-                                    <ViewNode tag="Horizontal Box">
+                                    <ViewNode tag="Plot Box">
                                         <ViewProxy type="javax.swing.Box_Horizontal"/>
-                                        <ViewNode tag="Function Graph Panel">
+                                        <ViewNode tag="BPM Time Data Graph">
                                             <ViewProxy type="xal.extension.widgets.plot.FunctionGraphsJPanel"/>
                                         </ViewNode>
-                                        <ViewNode tag="Function Graph Panel">
-                                            <ViewProxy type="xal.extension.widgets.plot.FunctionGraphsJPanel"/>
-                                        </ViewNode>
-                                    </ViewNode>
-                                    <ViewNode tag="Get Data">
-                                        <ViewProxy type="javax.swing.Box_Horizontal"/>
-                                        <ViewNode tag="Button">
+                                        <ViewNode tag="Fourier Transform">
                                             <ViewProxy type="javax.swing.JButton"/>
+                                            <BeanProperty height="55" name="preferredSize" width="80"/>
+                                            <BeanProperty group="" iconName="" name="pressedIcon"/>
+                                            <BeanProperty height="55" name="maximumSize" width="129"/>
+                                            <BeanProperty name="text" value="&lt;html>Fourier &lt;br> Transform &lt;/html>"/>
+                                            <BeanProperty height="55" name="minimumSize" width="129"/>
                                         </ViewNode>
-                                        <ViewNode tag="Progress Bar">
-                                            <ViewProxy type="javax.swing.JProgressBar"/>
-                                            <BeanProperty height="20" name="preferredSize" width="148"/>
-                                            <BeanProperty height="20" name="maximumSize" width="32767"/>
+                                        <ViewNode tag="BPM Frequency Graph">
+                                            <ViewProxy type="xal.extension.widgets.plot.FunctionGraphsJPanel"/>
                                         </ViewNode>
                                     </ViewNode>
                                     <ViewNode tag="Calculation Box">
@@ -454,6 +478,7 @@
                                         <ViewNode tag="Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
                                             <BeanProperty name="text" value="X : "/>
+                                            <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
@@ -468,19 +493,21 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Formatted Text Field">
+                                            <ViewNode tag="ReX">
                                                 <ViewProxy type="javax.swing.JFormattedTextField"/>
-                                                <BeanProperty name="text" value="00000"/>
+                                                <BeanProperty name="text" value=""/>
                                             </ViewNode>
-                                            <ViewNode tag="Formatted Text Field">
+                                            <ViewNode tag="ImX">
                                                 <ViewProxy type="javax.swing.JFormattedTextField"/>
+                                                <BeanProperty name="selectionStart" value="1"/>
+                                                <BeanProperty name="text" value=""/>
                                                 <BeanProperty name="toolTipText" value=""/>
-                                                <BeanProperty name="text" value="0"/>
                                             </ViewNode>
                                         </ViewNode>
                                         <ViewNode tag="Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
-                                            <BeanProperty name="text" value="Y : "/>
+                                            <BeanProperty name="text" value="   Y : "/>
+                                            <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
@@ -495,30 +522,29 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
-                                                <ViewProxy type="javax.swing.JTextField"/>
+                                            <ViewNode tag="ReY">
+                                                <ViewProxy type="javax.swing.JFormattedTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
-                                                <ViewProxy type="javax.swing.JTextField"/>
+                                            <ViewNode tag="ImY">
+                                                <ViewProxy type="javax.swing.JFormattedTextField"/>
                                             </ViewNode>
-                                        </ViewNode>
-                                        <ViewNode tag="Panel">
-                                            <ViewProxy type="javax.swing.JPanel"/>
-                                            <BeanProperty height="10" name="preferredSize" width="100"/>
                                         </ViewNode>
                                         <ViewNode tag="Calculation Button">
                                             <ViewProxy type="javax.swing.JButton"/>
+                                            <BeanProperty height="80" name="preferredSize" width="97"/>
+                                            <BeanProperty height="35" name="maximumSize" width="97"/>
                                             <BeanProperty name="text" value="Calculation"/>
                                         </ViewNode>
                                         <ViewNode tag="Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
-                                            <BeanProperty name="text" value="Result :"/>
+                                            <BeanProperty name="text" value="    Result :"/>
                                             <BeanProperty alpha="255" blue="255" green="0" name="foreground" red="0"/>
                                             <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
-                                            <BeanProperty name="text" value="X : "/>
+                                            <BeanProperty name="text" value="  X :   "/>
+                                            <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
@@ -533,16 +559,17 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
-                                                <ViewProxy type="javax.swing.JTextField"/>
+                                            <ViewNode tag="X Displacement">
+                                                <ViewProxy type="javax.swing.JFormattedTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
-                                                <ViewProxy type="javax.swing.JTextField"/>
+                                            <ViewNode tag="X Angle">
+                                                <ViewProxy type="javax.swing.JFormattedTextField"/>
                                             </ViewNode>
                                         </ViewNode>
                                         <ViewNode tag="Label">
                                             <ViewProxy type="javax.swing.JLabel"/>
-                                            <BeanProperty name="text" value="Y : "/>
+                                            <BeanProperty name="text" value="    Y :    "/>
+                                            <BeanProperty fontName="Dialog" name="font" size="20" style="1"/>
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
@@ -557,11 +584,11 @@
                                         </ViewNode>
                                         <ViewNode tag="Vertical Box">
                                             <ViewProxy type="javax.swing.Box_Vertical"/>
-                                            <ViewNode tag="Text Field">
-                                                <ViewProxy type="javax.swing.JTextField"/>
+                                            <ViewNode tag="Y Displacement">
+                                                <ViewProxy type="javax.swing.JFormattedTextField"/>
                                             </ViewNode>
-                                            <ViewNode tag="Text Field">
-                                                <ViewProxy type="javax.swing.JTextField"/>
+                                            <ViewNode tag="Y Angle">
+                                                <ViewProxy type="javax.swing.JFormattedTextField"/>
                                             </ViewNode>
                                         </ViewNode>
                                     </ViewNode>

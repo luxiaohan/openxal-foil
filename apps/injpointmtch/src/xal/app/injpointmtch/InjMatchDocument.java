@@ -5,7 +5,7 @@ package xal.app.injpointmtch;
 
 import java.net.URL;
 
-import xal.extension.application.*;
+import xal.extension.application.XalWindow;
 import xal.extension.application.smf.AcceleratorDocument;
 import xal.extension.bricks.WindowReference;
 import xal.tools.data.DataAdaptor;
@@ -24,6 +24,9 @@ public class InjMatchDocument extends AcceleratorDocument implements DataListene
 	/**the injection match model*/
 	final private InjMatchModel MODEL;
 	
+	/** the Controller*/
+	final private InjMatchController INJCONTROLLER;
+	
 	
     /** Empty Constructor */
     public InjMatchDocument() {
@@ -40,6 +43,8 @@ public class InjMatchDocument extends AcceleratorDocument implements DataListene
     	WINDOW_REFERENCE = getDefaultWindowReference( "MainWindow", this );
     	
     	MODEL = new InjMatchModel();
+    	
+    	INJCONTROLLER = new InjMatchController( this, WINDOW_REFERENCE );
     	
 		if ( url != null ) {
             System.out.println( "Opening document: " + url.toString() );
