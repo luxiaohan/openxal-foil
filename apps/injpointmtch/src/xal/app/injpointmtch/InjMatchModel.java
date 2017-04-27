@@ -15,10 +15,16 @@
 package xal.app.injpointmtch;
 
 import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+import java.util.concurrent.RejectedExecutionException;
 
+import javax.swing.JFileChooser;
+import com.mathworks.engine.EngineException;
 import com.mathworks.engine.MatlabEngine;
 
 /**
@@ -56,12 +62,12 @@ public class InjMatchModel {
 
 		Future<MatlabEngine> eng = null;
 
+
 		Future<String[]> engines = MatlabEngine.findMatlabAsync();
 		try {
 			if (engines.get().length == 0) {
-
-				String[] options = {}; // we can set startup options for MATLAB
-										// here.
+				String setFolder = "cd " + getMatlabFolder();				
+				String[] options = {"-r",setFolder};
 				eng = MatlabEngine.startMatlabAsync(options);
 			} else {
 				eng = MatlabEngine.connectMatlabAsync(engines.get()[0]);
@@ -77,31 +83,78 @@ public class InjMatchModel {
 		return eng;
 
 	}
+	
+	public String getMatlabFolder() {
+		Path path = Paths.get(System.getenv("HOME"));//initial directory
+		String mainPath = System.getenv("OPENXAL_HOME");
+		String title = "Set Matlab Folder";
+		if (mainPath == null) {
+			JFileChooser folder = new JFileChooser();
+			folder.setDialogTitle(title);
+			folder.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			folder.showOpenDialog(null);
+			path= Paths.get(folder.getSelectedFile().getPath());
+		} else {
+			path = Paths.get(mainPath,"apps","injpointmtch","matlabsources");
+		}		
+		return path.toString();
+	}
 
 	/**
-	 * get the bpm data from specified file
+	 * get the data from specified file
 	 * 
 	 * @param file
 	 *            the file
-	 * @return bpm data
+	 * @return the data
 	 *
 	 * @author luxiaohan
 	 * @since JDK 1.8
 	 * @version Mar 29, 2017,v 1.0
 	 */
-	public List<Double> getBpmData(final File file) {
-		DataReader<Double> bpmReader = new DataReader<Double>(file, Double.class);
-		List<Double> bpmdata = bpmReader.ReadData();
-		return bpmdata;
+	public List<Double> getDataFromFile(final File file) {
+		DataReader<Double> reader = new DataReader<Double>(file, Double.class);
+		List<Double> data = reader.ReadData();
+		return data;
+	}
+
+	public Future<double[]> doFourierTransform(final List<Double> bpmData) {
+		List<Double> sList = new ArrayList<Double>(bpmData.size());
+		for (int i = 0; i < bpmData.size(); i++) {
+			double j = i + 1;
+			sList.add(j);
+		}
+		return doFourierTransform(sList, bpmData);
+	}
+
+	public Future<double[]> doFourierTransform(final List<Double> sList, final List<Double> bpmData) {
+		Future<double[]> result = null;
+		double[] sArray = new double[sList.size()];
+		double[] bpmArray = new double[bpmData.size()];
+		for(int i=0; i<sList.size(); i++) {
+			sArray[i] = sList.get(i);
+			bpmArray[i] = bpmData.get(i);			
+		}
+		try {
+			result = MATLAB_ENGINE.get().fevalAsync("javatest", bpmArray);
+		} catch (RejectedExecutionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (EngineException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ExecutionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	/** get matlab engine */
 	public Future<MatlabEngine> getMatlabEngine() {
 		return MATLAB_ENGINE;
-	}
-
-	public void getdata() {
-		// MATLAB_ENGINE.get().eval("");
 	}
 
 }

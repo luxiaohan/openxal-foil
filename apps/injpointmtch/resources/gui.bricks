@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BricksDocument date="Tue Mar 28 14:21:21 CST 2017" version="1.0.0">
+<BricksDocument date="Wed Apr 05 14:36:18 CST 2017" version="1.0.0">
     <RootBrick>
-        <ViewNode customBeanClass="xal.extension.application.smf.DefaultAcceleratorWindow" height="901" tag="MainWindow" width="1442">
+        <ViewNode customBeanClass="xal.extension.application.smf.DefaultAcceleratorWindow" height="900" tag="MainWindow" width="1287">
             <ViewProxy type="javax.swing.JFrame"/>
             <BeanProperty name="title" value="Injection Point Match"/>
             <ViewNode tag="MainView">
@@ -71,8 +71,12 @@
                     <ViewProxy type="javax.swing.Box_Horizontal"/>
                     <ViewNode tag="Split Pane">
                         <ViewProxy type="javax.swing.JSplitPane"/>
+                        <BeanProperty name="continuousLayout" value="false"/>
+                        <BeanProperty name="opaque" value="true"/>
+                        <BeanProperty name="inheritsPopupMenu" value="false"/>
                         <BeanProperty name="oneTouchExpandable" value="true"/>
-                        <BeanProperty name="dividerLocation" value="400"/>
+                        <BeanProperty name="doubleBuffered" value="true"/>
+                        <BeanProperty name="dividerLocation" value="0"/>
                         <ViewNode tag="History Table Box">
                             <ViewProxy type="javax.swing.Box_Vertical"/>
                             <BeanProperty height="453" name="preferredSize" width="1000"/>
@@ -563,13 +567,21 @@
                                             <ViewNode tag="BPM Time Data Graph">
                                                 <ViewProxy type="xal.extension.widgets.plot.FunctionGraphsJPanel"/>
                                             </ViewNode>
-                                            <ViewNode tag="Fourier Transform">
-                                                <ViewProxy type="javax.swing.JButton"/>
-                                                <BeanProperty height="50" name="preferredSize" width="100"/>
-                                                <BeanProperty group="" iconName="" name="pressedIcon"/>
-                                                <BeanProperty height="50" name="maximumSize" width="111"/>
-                                                <BeanProperty name="text" value="&lt;html>Fourier &lt;br> Transform &lt;/html>"/>
-                                                <BeanProperty height="50" name="minimumSize" width="100"/>
+                                            <ViewNode tag="Vertical Box">
+                                                <ViewProxy type="javax.swing.Box_Vertical"/>
+                                                <ViewNode tag="Fourier Transform">
+                                                    <ViewProxy type="javax.swing.JButton"/>
+                                                    <BeanProperty height="50" name="preferredSize" width="100"/>
+                                                    <BeanProperty group="" iconName="" name="pressedIcon"/>
+                                                    <BeanProperty height="50" name="maximumSize" width="100"/>
+                                                    <BeanProperty name="text" value="&lt;html>Fourier &lt;br> Transform&lt;/html>"/>
+                                                    <BeanProperty height="50" name="minimumSize" width="100"/>
+                                                </ViewNode>
+                                                <ViewNode tag="Fourier Fit">
+                                                    <ViewProxy type="javax.swing.JButton"/>
+                                                    <BeanProperty height="50" name="maximumSize" width="100"/>
+                                                    <BeanProperty name="text" value="&lt;html>Fourier &lt;br> Fit&lt;/html>"/>
+                                                </ViewNode>
                                             </ViewNode>
                                             <ViewNode tag="BPM Frequency Graph">
                                                 <ViewProxy type="xal.extension.widgets.plot.FunctionGraphsJPanel"/>

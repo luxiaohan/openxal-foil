@@ -15,6 +15,8 @@
 package xal.app.injpointmtch;
 
 import java.io.File;
+import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Future;
 
@@ -24,8 +26,9 @@ import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFormattedTextField;
 import javax.swing.JRadioButton;
-import javax.swing.JTextField;
 import javax.swing.SwingWorker;
+import javax.swing.text.DefaultFormatterFactory;
+import javax.swing.text.NumberFormatter;
 
 import com.mathworks.engine.MatlabEngine;
 
@@ -45,6 +48,10 @@ public class InjMatchController {
 	final private InjMatchModel MODEL;
 	/** the Document */
 	final private InjMatchDocument DOCUMENT;
+	/** the bpm plot panel */
+	private InjMatchPlot bpmPlotPanel;
+	/** the frequency plot panel */
+	private InjMatchPlot freqPlotPanel;
 	/** X plane */
 	private JCheckBox xSelectionCheckbox;
 	/** Y plane */
@@ -53,8 +60,10 @@ public class InjMatchController {
 	private JButton matlabButton;
 	/** matlab engine */
 	private Future<MatlabEngine> matlabEngine;
-	/** bpm data*/
+	/** bpm data */
 	private List<Double> bpmData;
+	/** bpm freq result */
+	private Future<double[]> bpmFreqData;
 
 	/** Constructor */
 	public InjMatchController(final InjMatchDocument document, final WindowReference windowReference) {
@@ -119,23 +128,16 @@ public class InjMatchController {
 		bpmSources.add(bpmLocal);
 		bpmSources.add(bpmDatabase);
 		bpmSources.add(bpmOnline);
+		
+		final NumberFormat textFormat = NumberFormat.getNumberInstance();
+		final DefaultFormatterFactory formatterFactory = new DefaultFormatterFactory(new NumberFormatter(textFormat));
 
-		final JTextField bunchNumber = (JTextField) windowReference.getView("Bunch Number");
-		final JTextField turns = (JTextField) windowReference.getView("Turns");
+		final JFormattedTextField bunchNumber = (JFormattedTextField) windowReference.getView("Bunch Number");
+		bunchNumber.setFormatterFactory(formatterFactory);		
+		final JFormattedTextField turns = (JFormattedTextField) windowReference.getView("Turns");
+		turns.setFormatterFactory(formatterFactory);
 
 		final LocalFileChooser bpmChooser = new LocalFileChooser("BPM DATA");
-		
-
-		// add actionListener to these Get BPM Data Button
-		getBPMDataButton.addActionListener(event -> {
-			if (bpmSources.isSelected(bpmLocal.getModel())) {
-				File file = bpmChooser.showDialog(DOCUMENT.mainWindow);
-				if (file != null){
-					bpmData = MODEL.getBpmData(file);				
-				}
-			}
-
-		});
 
 		final JButton getMatrixButton = (JButton) windowReference.getView("Get Matrix");
 		final JRadioButton matrixLocal = (JRadioButton) windowReference.getView("Get Matrix Local");
@@ -151,42 +153,26 @@ public class InjMatchController {
 		matrixSources.add(matrixDatabase);
 		matrixSources.add(matrixOnline);
 
-		final JTextField x_A11 = (JTextField) windowReference.getView("X A11");
-		final JTextField x_A21 = (JTextField) windowReference.getView("X A21");
-		final JTextField x_A12 = (JTextField) windowReference.getView("X A12");
-		final JTextField x_A22 = (JTextField) windowReference.getView("X A22");
-		final JTextField xTune = (JTextField) windowReference.getView("X Tune");
-		final JTextField y_A11 = (JTextField) windowReference.getView("Y A11");
-		final JTextField y_A21 = (JTextField) windowReference.getView("Y A21");
-		final JTextField y_A12 = (JTextField) windowReference.getView("Y A12");
-		final JTextField y_A22 = (JTextField) windowReference.getView("Y A22");
-		final JTextField yTune = (JTextField) windowReference.getView("Y Tune");
+		final JFormattedTextField x_A11 = (JFormattedTextField) windowReference.getView("X A11");
+		final JFormattedTextField x_A21 = (JFormattedTextField) windowReference.getView("X A21");
+		final JFormattedTextField x_A12 = (JFormattedTextField) windowReference.getView("X A12");
+		final JFormattedTextField x_A22 = (JFormattedTextField) windowReference.getView("X A22");
+		final JFormattedTextField xTune = (JFormattedTextField) windowReference.getView("X Tune");
+		final JFormattedTextField y_A11 = (JFormattedTextField) windowReference.getView("Y A11");
+		final JFormattedTextField y_A21 = (JFormattedTextField) windowReference.getView("Y A21");
+		final JFormattedTextField y_A12 = (JFormattedTextField) windowReference.getView("Y A12");
+		final JFormattedTextField y_A22 = (JFormattedTextField) windowReference.getView("Y A22");
+		final JFormattedTextField yTune = (JFormattedTextField) windowReference.getView("Y Tune");
 
 		final JFileChooser matrixChooser = new JFileChooser();
 
-		getMatrixButton.addActionListener(event -> {
-			if (matrixSources.isSelected(matrixLocal.getModel())) {
-				matrixChooser.setDialogTitle("Get Matrix From Local File");
-				int selectedsate = matrixChooser.showOpenDialog(DOCUMENT.mainWindow);
-				if (selectedsate == JFileChooser.APPROVE_OPTION) {
-					File matrixFile = matrixChooser.getSelectedFile();
-					System.out.println(matrixFile.getPath());
-				}
-			}
-		});
-
 		final JButton fourierTransform = (JButton) windowReference.getView("Fourier Transform");
+		final JButton fourierFit = (JButton) windowReference.getView("Fourier Fit");
+		final JButton freqPlotButton = (JButton) windowReference.getView("Freq Plot");
 		final FunctionGraphsJPanel bpmTimeGraph = (FunctionGraphsJPanel) windowReference.getView("BPM Time Data Graph");
-		final FunctionGraphsJPanel bpmFrequencyGraph = (FunctionGraphsJPanel) windowReference
-				.getView("BPM Frequency Graph");
-		
-		fourierTransform.addActionListener(event -> {
-			if (bpmData != null && bpmData.size() != 0) {
-				for (Double l : bpmData) {
-					System.out.println(l);
-				}
-			}
-		});
+		final FunctionGraphsJPanel bpmFreqGraph = (FunctionGraphsJPanel) windowReference.getView("BPM Frequency Graph");
+		bpmPlotPanel = new InjMatchPlot(bpmTimeGraph);
+		freqPlotPanel = new InjMatchPlot(bpmFreqGraph);
 
 		final JFormattedTextField Re_Xv = (JFormattedTextField) windowReference.getView("Re X");
 		final JFormattedTextField Im_Xv = (JFormattedTextField) windowReference.getView("Im X");
@@ -198,6 +184,58 @@ public class InjMatchController {
 		final JFormattedTextField X_injAngle = (JFormattedTextField) windowReference.getView("X Angle");
 		final JFormattedTextField Y_injPoint = (JFormattedTextField) windowReference.getView("Y Displacement");
 		final JFormattedTextField Y_injAngle = (JFormattedTextField) windowReference.getView("Y Angle");
+
+		/************************************************************
+		 * Add action
+		 *****************************/
+		// add actionListener to these Get BPM Data Button
+		getBPMDataButton.addActionListener(event -> {
+			if (bpmSources.isSelected(bpmLocal.getModel())) {
+				File file = bpmChooser.showDialog(DOCUMENT.mainWindow);
+				if (file != null) {
+					bpmData = MODEL.getDataFromFile(file);
+					turns.setText(String.valueOf(bpmData.size()));
+
+					bpmTimeGraph.removeAllGraphData();
+					bpmFreqGraph.removeAllGraphData();
+
+					if (bpmData != null && bpmData.size() != 0) {
+						bpmPlotPanel.showPlot(bpmData);
+						bpmFreqData = MODEL.doFourierTransform(bpmData);
+					}
+				}
+			}
+
+		});
+
+		getMatrixButton.addActionListener(event -> {
+			if (matrixSources.isSelected(matrixLocal.getModel())) {
+				matrixChooser.setDialogTitle("Get Matrix From Local File");
+				int selectedsate = matrixChooser.showOpenDialog(DOCUMENT.mainWindow);
+				if (selectedsate == JFileChooser.APPROVE_OPTION) {
+					File matrixFile = matrixChooser.getSelectedFile();
+					List<Double> matrixData = MODEL.getDataFromFile(matrixFile);
+				}
+			}
+		});
+
+		// fourier transform button action
+		fourierTransform.addActionListener(event -> {
+			bpmFreqGraph.removeAllGraphData();
+			if (bpmFreqData != null) {
+				try {
+					double[] freqArray = bpmFreqData.get();
+					List<Double> freqList = new ArrayList<Double>(freqArray.length);
+					for (double j : freqArray) {
+						freqList.add(j);
+					}
+					freqPlotPanel.showPlot(freqList);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		});
 
 	}
 
