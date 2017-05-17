@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
-  <object id="1" language="java" name="xal.app.machinesimulator.MachineSimulator" project="open-test" 
-    file="/open-test/apps/machinesimulator/src/xal/app/machinesimulator/MachineSimulator.java" binary="false" 
+  <object id="1" language="java" name="xal.app.machinesimulator.MachineSimulator" project="openxal-dev" 
+    file="/openxal-dev/apps/machinesimulator/src/xal/app/machinesimulator/MachineSimulator.java" binary="false" 
     label="machineSimulator" type="class" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="2">      
       <position height="2616" width="0" x="0" y="145"/>    
     </execution>  
   </object>  
-  <object id="5" language="java" name="xal.sim.scenario.Scenario" project="open-test" 
-    file="/open-test/core/src/xal/sim/scenario/Scenario.java" binary="false" label="scenario" type="class" 
+  <object id="5" language="java" name="xal.sim.scenario.Scenario" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/sim/scenario/Scenario.java" binary="false" label="scenario" type="class" 
     autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="4">      
@@ -28,8 +28,8 @@
       <position height="21" width="0" x="0" y="532"/>    
     </execution>  
   </object>  
-  <object id="32" language="java" name="xal.model.probe.Probe" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/Probe.java" binary="false" label="probe" type="class" autoSize="true">    
+  <object id="32" language="java" name="xal.model.probe.Probe" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/Probe.java" binary="false" label="probe" type="class" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="7">      
       <position height="21" width="0" x="0" y="187"/>    
@@ -50,8 +50,8 @@
       <position height="21" width="0" x="0" y="1756"/>    
     </execution>  
   </object>  
-  <object id="36" language="java" name="xal.model.IAlgorithm" project="open-test" 
-    file="/open-test/core/src/xal/model/IAlgorithm.java" binary="false" label="alg" type="interface" autoSize="true">    
+  <object id="36" language="java" name="xal.model.IAlgorithm" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/IAlgorithm.java" binary="false" label="alg" type="interface" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="11">      
       <position height="21" width="0" x="0" y="281"/>    
@@ -69,15 +69,15 @@
       <position height="21" width="0" x="0" y="605"/>    
     </execution>  
   </object>  
-  <object id="37" language="java" name="xal.model.Lattice" project="open-test" 
-    file="/open-test/core/src/xal/model/Lattice.java" binary="false" label="lattice" type="class" autoSize="true">    
+  <object id="37" language="java" name="xal.model.Lattice" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/Lattice.java" binary="false" label="lattice" type="class" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="31">      
       <position height="1946" width="0" x="0" y="773"/>    
     </execution>  
   </object>  
-  <object id="40" language="java" name="xal.model.elem.ElementSeq" project="open-test" 
-    file="/open-test/core/src/xal/model/elem/ElementSeq.java" binary="false" label="elementSeq" type="class" 
+  <object id="40" language="java" name="xal.model.elem.ElementSeq" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/elem/ElementSeq.java" binary="false" label="elementSeq" type="class" 
     autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="39">      
@@ -90,15 +90,15 @@
       <position height="21" width="7" x="555" y="906"/>    
     </execution>  
   </object>  
-  <object id="47" language="java" name="xal.model.elem.Element" project="open-test" 
-    file="/open-test/core/src/xal/model/elem/Element.java" binary="false" label="element" type="class" autoSize="true">    
+  <object id="47" language="java" name="xal.model.elem.Element" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/elem/Element.java" binary="false" label="element" type="class" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="46">      
       <position height="1768" width="0" x="0" y="909"/>    
     </execution>  
   </object>  
-  <object id="54" language="java" name="xal.model.alg.Tracker" project="open-test" 
-    file="/open-test/core/src/xal/model/alg/Tracker.java" binary="false" label="tracker" type="class" autoSize="true">    
+  <object id="54" language="java" name="xal.model.alg.Tracker" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/alg/Tracker.java" binary="false" label="tracker" type="class" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="53">      
       <position height="1600" width="0" x="0" y="1056"/>    
@@ -119,8 +119,8 @@
       <position height="21" width="0" x="0" y="2583"/>    
     </execution>  
   </object>  
-  <object id="77" language="java" name="xal.model.IProbe" project="open-test" 
-    file="/open-test/core/src/xal/model/IProbe.java" binary="false" label="probe" type="interface" autoSize="true">    
+  <object id="77" language="java" name="xal.model.IProbe" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/IProbe.java" binary="false" label="probe" type="interface" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="58">      
       <position height="21" width="0" x="0" y="1129"/>    
@@ -165,8 +165,8 @@
       <position height="21" width="0" x="0" y="2478"/>    
     </execution>  
   </object>  
-  <object id="87" language="java" name="xal.model.IComponent" project="open-test" 
-    file="/open-test/core/src/xal/model/IComponent.java" binary="false" label="elem" type="interface" autoSize="true">    
+  <object id="87" language="java" name="xal.model.IComponent" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/IComponent.java" binary="false" label="elem" type="interface" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="60">      
       <position height="21" width="0" x="0" y="1171"/>    
@@ -187,8 +187,8 @@
       <position height="21" width="0" x="0" y="2112"/>    
     </execution>  
   </object>  
-  <object id="92" language="java" name="xal.model.alg.TransferMapTracker" project="open-test" 
-    file="/open-test/core/src/xal/model/alg/TransferMapTracker.java" binary="false" label="transferMapTracker" 
+  <object id="92" language="java" name="xal.model.alg.TransferMapTracker" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/alg/TransferMapTracker.java" binary="false" label="transferMapTracker" 
     type="class" autoSize="true">    
     <position height="-1" width="-1" x="1025" y="0"/>    
     <execution id="72">      
@@ -213,15 +213,15 @@
       <position height="21" width="0" x="0" y="2447"/>    
     </execution>  
   </object>  
-  <object id="125" language="java" name="xal.model.IElement" project="open-test" 
-    file="/open-test/core/src/xal/model/IElement.java" binary="false" label="ifcElem" type="interface" autoSize="true">    
+  <object id="125" language="java" name="xal.model.IElement" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/IElement.java" binary="false" label="ifcElem" type="interface" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="101">      
       <position height="21" width="0" x="0" y="1588"/>    
     </execution>  
   </object>  
-  <object id="126" language="java" name="xal.tools.beam.PhaseMap" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/PhaseMap.java" binary="false" label="mapPhi" type="class" autoSize="true">    
+  <object id="126" language="java" name="xal.tools.beam.PhaseMap" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/PhaseMap.java" binary="false" label="mapPhi" type="class" autoSize="true">    
     <position height="0" width="0" x="0" y="0"/>    
     <execution id="105">      
       <position height="21" width="0" x="0" y="1714"/>    

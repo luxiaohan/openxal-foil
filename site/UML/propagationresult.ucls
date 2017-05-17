@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="xal.model.IProbe" project="open-test" 
-    file="/open-test/core/src/xal/model/IProbe.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="1" language="java" name="xal.model.IProbe" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/IProbe.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="93" y="157"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </interface>  
-  <interface id="2" language="java" name="xal.model.probe.traj.IProbeState" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/IProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="2" language="java" name="xal.model.probe.traj.IProbeState" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/IProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="94" y="243"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </interface>  
-  <class id="3" language="java" name="xal.model.probe.traj.ProbeState" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/ProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="xal.model.probe.traj.ProbeState" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/ProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="55" width="124" x="238" y="217"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="xal.model.probe.Probe" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/Probe.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="xal.model.probe.Probe" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/Probe.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="55" width="98" x="275" y="61"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="xal.model.probe.traj.ParticleProbeState" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/ParticleProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="xal.model.probe.traj.ParticleProbeState" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/ParticleProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="88" y="382"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="xal.model.probe.traj.TransferMapState" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/TransferMapState.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="xal.model.probe.traj.TransferMapState" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/TransferMapState.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="255" y="381"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="xal.model.probe.traj.EnvelopeProbeState" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/EnvelopeProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="xal.model.probe.traj.EnvelopeProbeState" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/EnvelopeProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="463" y="438"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -64,8 +64,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="xal.model.probe.traj.BunchProbeState" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/BunchProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="xal.model.probe.traj.BunchProbeState" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/BunchProbeState.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="55" width="169" x="396" y="286"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -73,8 +73,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="xal.tools.beam.PhaseVector" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/PhaseVector.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="9" language="java" name="xal.tools.beam.PhaseVector" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/PhaseVector.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="85" y="551"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -82,8 +82,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="xal.tools.beam.PhaseMatrix" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/PhaseMatrix.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="10" language="java" name="xal.tools.beam.PhaseMatrix" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/PhaseMatrix.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="500" y="661"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -91,8 +91,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="xal.tools.beam.PhaseMap" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/PhaseMap.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="11" language="java" name="xal.tools.beam.PhaseMap" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/PhaseMap.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="296" y="752"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -100,8 +100,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="xal.model.probe.traj.Trajectory" project="open-test" 
-    file="/open-test/core/src/xal/model/probe/traj/Trajectory.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="12" language="java" name="xal.model.probe.traj.Trajectory" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/probe/traj/Trajectory.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="696" y="191"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -109,8 +109,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="xal.tools.beam.calc.CalculationEngine" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/CalculationEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="13" language="java" name="xal.tools.beam.calc.CalculationEngine" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/CalculationEngine.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1268" y="234"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -118,8 +118,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="xal.tools.beam.calc.CalculationsOnBeams" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/CalculationsOnBeams.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="14" language="java" name="xal.tools.beam.calc.CalculationsOnBeams" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/CalculationsOnBeams.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="936" y="413"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -127,8 +127,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="xal.tools.beam.calc.CalculationsOnMachines" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/CalculationsOnMachines.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="15" language="java" name="xal.tools.beam.calc.CalculationsOnMachines" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/CalculationsOnMachines.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1341" y="413"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -136,8 +136,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="xal.tools.beam.calc.CalculationsOnParticles" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/CalculationsOnParticles.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="16" language="java" name="xal.tools.beam.calc.CalculationsOnParticles" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/CalculationsOnParticles.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1134" y="413"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -145,8 +145,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="17" language="java" name="xal.tools.beam.calc.CalculationsOnRings" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/CalculationsOnRings.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="17" language="java" name="xal.tools.beam.calc.CalculationsOnRings" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/CalculationsOnRings.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1347" y="536"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -154,8 +154,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <interface id="18" language="java" name="xal.tools.beam.calc.ISimulationResults" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/ISimulationResults.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="18" language="java" name="xal.tools.beam.calc.ISimulationResults" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/ISimulationResults.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1056" y="733"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -163,8 +163,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </interface>  
-  <interface id="19" language="java" name="xal.tools.beam.calc.ISimulationResults.ISimEnvResults" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/ISimulationResults.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="19" language="java" name="xal.tools.beam.calc.ISimulationResults.ISimEnvResults" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/ISimulationResults.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="937" y="628"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -172,8 +172,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </interface>  
-  <interface id="20" language="java" name="xal.tools.beam.calc.ISimulationResults.ISimLocResults" project="open-test" 
-    file="/open-test/core/src/xal/tools/beam/calc/ISimulationResults.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="20" language="java" name="xal.tools.beam.calc.ISimulationResults.ISimLocResults" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/tools/beam/calc/ISimulationResults.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1154" y="630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -181,8 +181,8 @@
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </interface>  
-  <interface id="21" language="java" name="xal.model.IAlgorithm" project="open-test" 
-    file="/open-test/core/src/xal/model/IAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="21" language="java" name="xal.model.IAlgorithm" project="openxal-dev" 
+    file="/openxal-dev/core/src/xal/model/IAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="95" y="60"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

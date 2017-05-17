@@ -1,0 +1,14 @@
+<?xml version ='1.0' encoding = 'UTF-8'?>
+<!DOCTYPE sources SYSTEM "xdxf.dtd">
+<sources version="2.0">
+    <modelElementConfig_source name="modelElementConfig" url="ModelConfig.modconfig" />
+	<deviceMapping_source name="deviceMapping" url="csns.impl"/>
+	<optics_source name="optics" url="csns.xdxf"/>
+	<optics_extra name="LINAC" url="csns_Linac.xdxf"/>
+	<optics_extra name="LRBT" url="LRBT_61MeV_0513.xdxf"/>
+	<optics_extra name="RCS" url="RCS_60MeV_20170109_DC.xdxf"/>
+	<optics_extra name="RTBT" url="RTBT_without_OCT.xdxf"/>
+	<hardware_status name="Hardware Status" url="hardware_status.xdxf"/>
+	<timing_source name="timing" url="timing_pvs.tim"/>
+	<tablegroup_source name="modelparams" url="model_61MeV-0427.params"/>
+</sources>
