@@ -1267,7 +1267,7 @@
         </node>
         <node id="LRBT_Mag:INSPT02" len="1.2" pid="INSPT02" pos="3.6148" status="true" type="XBEND">
             <attributes>
-                <magnet bendAngle="-16.381207" dfltMagFld="-0.273528" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" len="1.2" pathLength="1.2" polarity="-1" />
+                <magnet bendAngle="-16.381207" dfltMagFld="-0.273227" dipoleEntrRotAngle="0.0" dipoleExitRotAngle="0.0" len="1.2" pathLength="1.2" polarity="-1" />
                 <aperture shape="0" x="0" y="0" />
                 <align pitch="0" roll="0" x="0" y="0" yaw="0" z="0" />
             </attributes>

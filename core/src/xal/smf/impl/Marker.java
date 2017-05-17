@@ -53,7 +53,7 @@ public class Marker extends AcceleratorNode {
 
 
     /** Overriden to provide type signature */
-    public String getType()   { return s_strType; }
+    public String getType()   { return _type; }
 
 
 	// static initializer

@@ -16,6 +16,7 @@ package xal.model.alg;
 import xal.model.IElement;
 import xal.model.IProbe;
 import xal.model.ModelException;
+import xal.model.elem.ChargeExchangeFoil;
 import xal.model.elem.IdealDrift;
 import xal.model.elem.IdealRfGap;
 import xal.model.elem.ThinElement;
@@ -873,7 +874,7 @@ public class EnvTrackerAdapt extends EnvelopeTrackerBase {
 //        R3  phs1 = phs0.plus( Phi.compPhaseAdvance(twissOld, twissNew) );//Phi=Transferemap
 //        probe.setBetatronPhase(phs1);
 
-
+        treatChargeExchange(probe, ifcElem);
         this.advanceProbe(probe, ifcElem, 0.0);
     };
 
@@ -1501,6 +1502,28 @@ public class EnvTrackerAdapt extends EnvelopeTrackerBase {
 //        return matPhiSc;
 //        
 //    }
+    /**
+     * Test for a <code>ChargeExchangeFoil</code> element.
+     * If found, the probe represent an H<sup>-</sup> beam, the electrons 
+     * are stripped and the beam becomes H<sup>+</sup>.
+     * 
+     * @param probe    Propagating beam
+     * @param ifcElem  Element to tested for <code>ChargeExchangeFoil</code> type
+     * 
+     * @author Hiroyuki Sako
+     * 
+     * @see xal.model.elem.ChargeExchangeFoil
+     */
+    private void treatChargeExchange(EnvelopeProbe probe, IElement ifcElem) {
+    	if (ifcElem instanceof ChargeExchangeFoil) {
+    		double q = probe.getSpeciesCharge();
+    		if (q<0) {
+    			System.out.println("charge exchanged at "+ifcElem.getId()+" from "+q+" to "+ (-q));
+    			probe.setSpeciesCharge(-q);
+    			//probe.setKineticEnergy(61.00E6);
+    		}
+    	}
+    }
 
 
 }
@@ -1533,6 +1556,7 @@ public class EnvTrackerAdapt extends EnvelopeTrackerBase {
 //}
 //
 //
+
 
  
  

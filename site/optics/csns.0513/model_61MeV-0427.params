@@ -225,8 +225,8 @@
         <record name="DTL3" species="HMINUS" W="41.4146E6"/>
         <record name="DTL4" species="HMINUS" W="61.0715E6"/>
         <record name="LRBT_PreMatch" species="HMINUS" W="61.0712E6"/>
-        <record name="LRBT_injFoil2injdump" species="PROTON" W="61.0712E6"/>
-        <record name="RCS_Inj1" species="PROTON" W="61.0712E6"/>
+        <record name="LRBT_injPointinjdump" species="PROTON" W="61.0051E6"/>
+        <record name="RCS_Inj1" species="PROTON" W="61.0051E6"/>
         <record name="RCS_R1" species="PROTON" W="80.0E6"/>
         <record name="RCS_R2" species="PROTON" W="80.0E6"/>
         <record name="RCS_Ext1" species="PROTON" W="80.0E6"/>

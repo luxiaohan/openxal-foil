@@ -97,6 +97,8 @@ public class ChargeExchangeFoil extends ThinElement {
      *  @exception  PropagationException  this should not occur
      */
     @Override
-    protected PhaseMap transferMap(IProbe probe) throws PropagationException { return s_mapId; }
+    protected PhaseMap transferMap(IProbe probe) throws PropagationException { 
+    	System.out.println("I'm here");
+    	return s_mapId; }
     
 }
